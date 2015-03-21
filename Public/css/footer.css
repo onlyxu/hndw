@@ -1,0 +1,103 @@
+@CHARSET "UTF-8";
+/*-----------------------------Public--------------------------------*/
+.ofh { overflow: hidden; }
+.m { margin: 0 auto; }
+.mt10 { margin-top: 10px }
+.mt15 { margin: 15px auto 0 auto; }
+.mt20 { margin: 20px auto 0 auto; }
+.mt30 { margin: 30px auto 0 auto; }
+.mtb10 { margin: 10px auto; }
+.mtb15 { margin: 15px auto; }
+.mtb20 { margin: 20px auto; }
+.mtb30 { margin: 30px auto; }
+.ml10 { margin: 0 auto 0 10px; _margin: 0 auto 0 5px; }
+.ml20 { margin: 0 auto 0 20px; _margin: 0 auto 0 10px; }
+.ml30 { margin: 0 auto 0 30px; _margin: 0 auto 0 15px; }
+.mr10 { margin: 0 10px 0 auto; _margin: 0 5px 0 auto; }
+.mr20 { margin: 0 20px 0 auto; _margin: 0 10px 0 auto; }
+.mr30 { margin: 0 30px 0 auto; _margin: 0 15px 0 auto; }
+.pt10 { padding-top: 10px; }
+.pt15 { padding-top: 15px; }
+.pt20 { padding-top: 20px; }
+.pt30 { padding-top: 30px; }
+.pr10 { padding-right: 10px; }
+.pr15 { padding-right: 15px; }
+.pr20 { padding-right: 20px; }
+.pr30 { padding-right: 30px; }
+.pb10 { padding-bottom: 10px; }
+.pb15 { padding-bottom: 15px; }
+.pb20 { padding-bottom: 20px; }
+.pb30 { padding-bottom: 30px; }
+.pl10 { padding-left: 10px; }
+.pl15 { padding-left: 15px; }
+.pl20 { padding-left: 20px; }
+.pl30 { padding-left: 30px; }
+.mlr25 { margin: 0 25px; _margin: 0 12px; }
+.ms1225 { margin: 12px 25px; _margin: 12px 12px; }
+.ptb10 { padding: 10px 0; }
+.pt20{padding-top:20px;}
+.mtb12 { margin: 12px 0; }
+.width { width: 1002px; margin: 0 auto; }
+.wa { width: 100%; }
+.wh { width: 50%; }
+.hh { height: 50%; }
+.w30 { width: 30%; }
+.w70 { width: 70%; }
+.w90 { width: 90%; }
+.f9 { font-size: 9pt; }
+.f10 { font-size: 10pt; }
+.f11 { font-size: 11pt; }
+.f34 { font-size: 34px; }
+.i { font-style: italic; }
+.b { font-weight: bold; }
+.lh20 { line-height: 20px; }
+.lh25 { line-height: 25px; }
+.lh30 { line-height: 30px; }
+.tid20 { text-indent: 20px; }
+.tac { text-align: center; }
+.tal { text-align: left; }
+.tar { text-align: right; }
+.z_-1 { z-index: -1; }
+.z_1 { z-index: 1; }
+.z_2 { z-index: 2; }
+.z_3 { z-index: 3; }
+.pa { position: absolute; }
+.pr { position: relative; }
+.dn { display: none; }
+.db { display: block; }
+.l { float: left; }
+.r { float: right; }
+.c { clear: both; }
+.C:before, .C:after { content: "."; display: block; height: 0; visibility: hidden; }
+.C:after { clear: both; }
+.C { zoom: 1; }
+.r0 { right: 0; }
+.l0 { left: 0; }
+.b0 { bottom: 0; }
+.cp { cursor: pointer; }
+#hovered { background: #EC054B; color: #fff; }
+
+/*-----------------------------Footer--------------------------------*/
+.Footer { background: url(../images/footer.jpg) repeat; border-top: 3px solid #1a529c; padding-top: 20px; overflow: hidden; }
+.footerTitleLine { margin: 10px 0 20px 0; }
+.footerPart { width: 300px; }
+.footerPart2 { width: 330px; margin: 0 30px; }
+.footerContent { color: #979797; font-size: 9pt; text-indent: 20px; margin: 10px 0; line-height: 30px; }
+.footerTitle { color: #ccc; height: 30px; line-height: 30px; background: url(../images/footerLine.jpg) no-repeat left bottom;  }
+.footerTitle span.l{ margin-right:5px;_margin-right:2px; display:inline-block;}
+.footerContent span {line-height: 30px; cursor:pointer; }
+.footerContent span.l{width:80%; text-indent:0; overflow:hidden; width:220px; height:30px;}
+.footerContent span.r{width:20%; text-indent:0; width:68px; overflow:hidden; }
+.footerContent li{height:30px;}
+.copyright { color: #666; font-size: 9pt; line-height: 30px; height: 30px;}
+.gotoTop{right:10%;z-index:10000; width:58px; height:58px; visibility:hidden;  cursor:pointer;_display:none}
+.en{ font-size:9pt; color:#ccc; display:inline-block; float:left}
+.footShowMore{ font-size:11px; line-height:40px; width:30px; display:inline-block}
+.footShowMore:hover{ color:#ccc}
+.idx_name , .idx_email , .idx_phone{width:298px; margin-top:10px; float:left; height:35px; border:1px solid #efefef; background:#1a529c; text-indent:80px; color:#ededed; line-height:35px;}
+.idx_youWant{width:200px; margin-top:10px; float:left; height:76px;border:1px solid #efefef;background:#1a529c;color:#ededed; text-indent:20px;}
+.idx_submit{width:78px; height:78px; margin-top:10px;background:#1a529c;border:1px solid #efefef;color:#ededed; cursor:pointer; background: url("../images/bottomOrderButton.jpg");}
+.idx_name{ background:url(../images/bottomOrderName.jpg) #1a529c no-repeat left top;}
+.idx_email{background:url(../images/bottomOrderMail.jpg) #1a529c no-repeat left top;}
+.idx_phone{background:url(../images/bottomOrderPhone.jpg) #1a529c no-repeat left top;}
+#bdshare { line-height: 13px; }

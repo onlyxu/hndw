@@ -1,0 +1,3069 @@
+[ 2015-03-20 21:48:29 ] 127.0.0.1 /hndw/index.php/catetype/producttype
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001944s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002089s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001349s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.048296s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword=producttype ) LIMIT 1   [ RunTime:0.000530s ]
+ERR: 1054:Unknown column 'producttype' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword=producttype ) LIMIT 1  
+NOTIC: [8] Undefined variable: totalCount E:\AppServ\www\hndw\home\Lib\Action\PageAction.class.php 第 19 行.
+
+[ 2015-03-20 21:49:38 ] 127.0.0.1 /hndw/index.php/catetype/producttype
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001261s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001355s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000928s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.005424s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword=producttype ) LIMIT 1   [ RunTime:0.000261s ]
+ERR: 1054:Unknown column 'producttype' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword=producttype ) LIMIT 1  
+NOTIC: [8] Undefined variable: totalCount E:\AppServ\www\hndw\home\Lib\Action\PageAction.class.php 第 19 行.
+
+[ 2015-03-20 21:51:58 ] 127.0.0.1 /hndw/index.php/catetype/producttype
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003339s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003564s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002255s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.009796s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword=producttype ) LIMIT 1   [ RunTime:0.000535s ]
+ERR: 1054:Unknown column 'producttype' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword=producttype ) LIMIT 1  
+NOTIC: [8] Undefined variable: totalCount E:\AppServ\www\hndw\home\Lib\Action\PageAction.class.php 第 19 行.
+
+[ 2015-03-20 21:52:01 ] 127.0.0.1 /hndw/index.php/catetype/producttype
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002209s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002438s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001359s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.009378s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword=producttype ) LIMIT 1   [ RunTime:0.000509s ]
+ERR: 1054:Unknown column 'producttype' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword=producttype ) LIMIT 1  
+NOTIC: [8] Undefined variable: totalCount E:\AppServ\www\hndw\home\Lib\Action\PageAction.class.php 第 19 行.
+
+[ 2015-03-20 21:52:23 ] 127.0.0.1 /hndw/index.php/catetype/producttype
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001666s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001794s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001171s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001268s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.008085s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword=producttype ) LIMIT 1   [ RunTime:0.000436s ]
+ERR: 1054:Unknown column 'producttype' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword=producttype ) LIMIT 1  
+NOTIC: [8] Undefined variable: totalCount E:\AppServ\www\hndw\home\Lib\Action\PageAction.class.php 第 19 行.
+
+[ 2015-03-20 21:55:48 ] 127.0.0.1 /hndw/index.php/catetype/producttype
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001811s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001949s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001282s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.009262s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' ) LIMIT 1   [ RunTime:0.000766s ]
+NOTIC: [8] Undefined variable: totalCount E:\AppServ\www\hndw\home\Lib\Action\PageAction.class.php 第 19 行.
+
+[ 2015-03-20 21:56:06 ] 127.0.0.1 /hndw/index.php/catetype/producttype
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002805s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003024s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002208s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.009129s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' ) LIMIT 1   [ RunTime:0.001004s ]
+NOTIC: [8] Undefined variable: totalCount E:\AppServ\www\hndw\home\Lib\Action\PageAction.class.php 第 19 行.
+
+[ 2015-03-20 21:57:00 ] 127.0.0.1 /hndw/index.php/catetype/producttype
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001980s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002200s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001173s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001340s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.008690s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' ) LIMIT 1   [ RunTime:0.000488s ]
+NOTIC: [8] Undefined variable: totalCount E:\AppServ\www\hndw\home\Lib\Action\PageAction.class.php 第 19 行.
+
+[ 2015-03-20 21:57:03 ] 127.0.0.1 /hndw/index.php/catetype/producttype
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001985s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002194s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000876s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.009035s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' ) LIMIT 1   [ RunTime:0.000678s ]
+NOTIC: [8] Undefined variable: totalCount E:\AppServ\www\hndw\home\Lib\Action\PageAction.class.php 第 19 行.
+
+[ 2015-03-20 21:57:54 ] 127.0.0.1 /hndw/index.php/catetype/producttype
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002018s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002275s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001138s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001295s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.009212s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' ) LIMIT 1   [ RunTime:0.000608s ]
+NOTIC: [8] Undefined variable: totalCount E:\AppServ\www\hndw\home\Lib\Action\PageAction.class.php 第 19 行.
+
+[ 2015-03-20 22:04:35 ] 127.0.0.1 /hndw/index.php/catetype/producttype
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003171s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003450s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002108s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002304s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.009674s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' ) LIMIT 1   [ RunTime:0.000757s ]
+NOTIC: [8] Undefined variable: pageCount E:\AppServ\www\hndw\home\Lib\Action\PageAction.class.php 第 21 行.
+
+[ 2015-03-20 22:07:21 ] 127.0.0.1 /hndw/index.php/catetype/producttype
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002053s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002222s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001446s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.010885s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' ) LIMIT 1   [ RunTime:0.000841s ]
+NOTIC: [8] Undefined variable: totalCount E:\AppServ\www\hndw\home\Lib\Action\PageAction.class.php 第 59 行.
+
+[ 2015-03-20 22:09:57 ] 127.0.0.1 /hndw/index.php/catetype/producttype
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002835s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003049s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002192s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.009747s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' ) LIMIT 1   [ RunTime:0.000739s ]
+
+[ 2015-03-20 22:10:25 ] 127.0.0.1 /hndw/index.php/catetype/producttype
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003111s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003384s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001974s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002170s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.009458s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' ) LIMIT 1   [ RunTime:0.000663s ]
+
+[ 2015-03-20 22:10:58 ] 127.0.0.1 /hndw/index.php/catetype/producttype
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001747s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001919s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001185s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.010071s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' ) LIMIT 1   [ RunTime:0.000670s ]
+
+[ 2015-03-20 22:11:01 ] 127.0.0.1 /hndw/index.php/catetype/producttype
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000839s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000951s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.010506s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' ) LIMIT 1   [ RunTime:0.000689s ]
+
+[ 2015-03-20 22:11:33 ] 127.0.0.1 /hndw/index.php/catetype/producttype
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001934s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002149s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001128s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001283s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.008853s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' ) LIMIT 1   [ RunTime:0.000505s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword=producttype ) ORDER BY orders desc,dtime desc  [ RunTime:0.000302s ]
+ERR: 1054:Unknown column 'producttype' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_category` WHERE ( keyword=producttype ) ORDER BY orders desc,dtime desc 
+
+[ 2015-03-20 22:12:27 ] 127.0.0.1 /hndw/index.php/catetype/producttype
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001307s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001408s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000865s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.009701s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' ) LIMIT 1   [ RunTime:0.000681s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword=producttype ) ORDER BY orders desc,dtime desc  [ RunTime:0.000487s ]
+ERR: 1054:Unknown column 'producttype' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_category` WHERE ( keyword=producttype ) ORDER BY orders desc,dtime desc 
+
+[ 2015-03-20 22:12:44 ] 127.0.0.1 /hndw/index.php/catetype/producttype
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002782s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002993s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002417s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.008940s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' ) LIMIT 1   [ RunTime:0.000483s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword=producttype ) ORDER BY orders desc,dtime desc  [ RunTime:0.000300s ]
+ERR: 1054:Unknown column 'producttype' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_category` WHERE ( keyword=producttype ) ORDER BY orders desc,dtime desc 
+
+[ 2015-03-20 22:14:18 ] 127.0.0.1 /hndw/index.php/catetype/producttype
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003048s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003283s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002437s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.008774s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' ) LIMIT 1   [ RunTime:0.000543s ]
+NOTIC: [8] Undefined variable: pageCount E:\AppServ\www\hndw\home\Lib\Action\PageAction.class.php 第 24 行.
+
+[ 2015-03-20 22:16:40 ] 127.0.0.1 /hndw/index.php/catetype/producttype
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003593s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003823s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002414s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.007211s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' ) LIMIT 1   [ RunTime:0.000563s ]
+NOTIC: [8] Undefined variable: page E:\AppServ\www\hndw\home\Lib\Action\CateAction.class.php 第 25 行.
+NOTIC: [8] Trying to get property of non-object E:\AppServ\www\hndw\home\Lib\Action\CateAction.class.php 第 25 行.
+NOTIC: [8] Undefined variable: page E:\AppServ\www\hndw\home\Lib\Action\CateAction.class.php 第 25 行.
+NOTIC: [8] Trying to get property of non-object E:\AppServ\www\hndw\home\Lib\Action\CateAction.class.php 第 25 行.
+NOTIC: [8] Undefined variable: page E:\AppServ\www\hndw\home\Lib\Action\CateAction.class.php 第 25 行.
+NOTIC: [8] Trying to get property of non-object E:\AppServ\www\hndw\home\Lib\Action\CateAction.class.php 第 25 行.
+SQL: SELECT * FROM `tp_category` WHERE ( keyword=producttype ) ORDER BY orders desc,dtime desc  [ RunTime:0.000301s ]
+ERR: 1054:Unknown column 'producttype' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_category` WHERE ( keyword=producttype ) ORDER BY orders desc,dtime desc 
+NOTIC: [8] Undefined variable: page E:\AppServ\www\hndw\home\Lib\Action\CateAction.class.php 第 29 行.
+NOTIC: [8] Trying to get property of non-object E:\AppServ\www\hndw\home\Lib\Action\CateAction.class.php 第 29 行.
+NOTIC: [8] Undefined variable: page E:\AppServ\www\hndw\home\Lib\Action\CateAction.class.php 第 30 行.
+NOTIC: [8] Trying to get property of non-object E:\AppServ\www\hndw\home\Lib\Action\CateAction.class.php 第 30 行.
+NOTIC: [8] Undefined variable: page E:\AppServ\www\hndw\home\Lib\Action\CateAction.class.php 第 31 行.
+NOTIC: [8] Trying to get property of non-object E:\AppServ\www\hndw\home\Lib\Action\CateAction.class.php 第 31 行.
+
+[ 2015-03-20 22:16:54 ] 127.0.0.1 /hndw/index.php/catetype/producttype
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002878s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003090s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002103s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.008853s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' ) LIMIT 1   [ RunTime:0.000462s ]
+NOTIC: [8] Undefined variable: page E:\AppServ\www\hndw\home\Lib\Action\CateAction.class.php 第 24 行.
+NOTIC: [8] Trying to get property of non-object E:\AppServ\www\hndw\home\Lib\Action\CateAction.class.php 第 24 行.
+NOTIC: [8] Undefined variable: page E:\AppServ\www\hndw\home\Lib\Action\CateAction.class.php 第 24 行.
+NOTIC: [8] Trying to get property of non-object E:\AppServ\www\hndw\home\Lib\Action\CateAction.class.php 第 24 行.
+NOTIC: [8] Undefined variable: page E:\AppServ\www\hndw\home\Lib\Action\CateAction.class.php 第 24 行.
+NOTIC: [8] Trying to get property of non-object E:\AppServ\www\hndw\home\Lib\Action\CateAction.class.php 第 24 行.
+SQL: SELECT * FROM `tp_category` WHERE ( keyword=producttype ) ORDER BY orders desc,dtime desc  [ RunTime:0.000307s ]
+ERR: 1054:Unknown column 'producttype' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_category` WHERE ( keyword=producttype ) ORDER BY orders desc,dtime desc 
+NOTIC: [8] Undefined variable: page E:\AppServ\www\hndw\home\Lib\Action\CateAction.class.php 第 28 行.
+NOTIC: [8] Trying to get property of non-object E:\AppServ\www\hndw\home\Lib\Action\CateAction.class.php 第 28 行.
+NOTIC: [8] Undefined variable: page E:\AppServ\www\hndw\home\Lib\Action\CateAction.class.php 第 29 行.
+NOTIC: [8] Trying to get property of non-object E:\AppServ\www\hndw\home\Lib\Action\CateAction.class.php 第 29 行.
+NOTIC: [8] Undefined variable: page E:\AppServ\www\hndw\home\Lib\Action\CateAction.class.php 第 30 行.
+NOTIC: [8] Trying to get property of non-object E:\AppServ\www\hndw\home\Lib\Action\CateAction.class.php 第 30 行.
+
+[ 2015-03-20 22:17:56 ] 127.0.0.1 /hndw/index.php/catetype/producttype
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003159s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003420s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002658s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.009538s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' ) LIMIT 1   [ RunTime:0.000735s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword=producttype ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.000426s ]
+ERR: 1054:Unknown column 'producttype' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_category` WHERE ( keyword=producttype ) ORDER BY orders desc,dtime desc LIMIT 0,9  
+NOTIC: [8] Undefined variable: page E:\AppServ\www\hndw\home\Lib\Action\CateAction.class.php 第 28 行.
+NOTIC: [8] Trying to get property of non-object E:\AppServ\www\hndw\home\Lib\Action\CateAction.class.php 第 28 行.
+NOTIC: [8] Undefined variable: page E:\AppServ\www\hndw\home\Lib\Action\CateAction.class.php 第 29 行.
+NOTIC: [8] Trying to get property of non-object E:\AppServ\www\hndw\home\Lib\Action\CateAction.class.php 第 29 行.
+NOTIC: [8] Undefined variable: page E:\AppServ\www\hndw\home\Lib\Action\CateAction.class.php 第 30 行.
+NOTIC: [8] Trying to get property of non-object E:\AppServ\www\hndw\home\Lib\Action\CateAction.class.php 第 30 行.
+
+[ 2015-03-20 22:18:15 ] 127.0.0.1 /hndw/index.php/catetype/producttype
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001160s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001293s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000757s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.009327s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' ) LIMIT 1   [ RunTime:0.000612s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword=producttype ) ORDER BY orders desc,dtime desc  [ RunTime:0.000387s ]
+ERR: 1054:Unknown column 'producttype' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_category` WHERE ( keyword=producttype ) ORDER BY orders desc,dtime desc 
+NOTIC: [8] Undefined variable: page E:\AppServ\www\hndw\home\Lib\Action\CateAction.class.php 第 28 行.
+NOTIC: [8] Trying to get property of non-object E:\AppServ\www\hndw\home\Lib\Action\CateAction.class.php 第 28 行.
+NOTIC: [8] Undefined variable: page E:\AppServ\www\hndw\home\Lib\Action\CateAction.class.php 第 29 行.
+NOTIC: [8] Trying to get property of non-object E:\AppServ\www\hndw\home\Lib\Action\CateAction.class.php 第 29 行.
+NOTIC: [8] Undefined variable: page E:\AppServ\www\hndw\home\Lib\Action\CateAction.class.php 第 30 行.
+NOTIC: [8] Trying to get property of non-object E:\AppServ\www\hndw\home\Lib\Action\CateAction.class.php 第 30 行.
+
+[ 2015-03-20 22:18:34 ] 127.0.0.1 /hndw/index.php/catetype/producttype
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002063s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002301s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001470s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.009869s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' ) LIMIT 1   [ RunTime:0.000695s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' ) ORDER BY orders desc,dtime desc  [ RunTime:0.000688s ]
+NOTIC: [8] Undefined variable: page E:\AppServ\www\hndw\home\Lib\Action\CateAction.class.php 第 28 行.
+NOTIC: [8] Trying to get property of non-object E:\AppServ\www\hndw\home\Lib\Action\CateAction.class.php 第 28 行.
+NOTIC: [8] Undefined variable: page E:\AppServ\www\hndw\home\Lib\Action\CateAction.class.php 第 29 行.
+NOTIC: [8] Trying to get property of non-object E:\AppServ\www\hndw\home\Lib\Action\CateAction.class.php 第 29 行.
+NOTIC: [8] Undefined variable: page E:\AppServ\www\hndw\home\Lib\Action\CateAction.class.php 第 30 行.
+NOTIC: [8] Trying to get property of non-object E:\AppServ\www\hndw\home\Lib\Action\CateAction.class.php 第 30 行.
+
+[ 2015-03-20 22:19:03 ] 127.0.0.1 /hndw/index.php/catetype/producttype
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003163s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003403s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002445s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.009251s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' ) LIMIT 1   [ RunTime:0.000634s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.000626s ]
+NOTIC: [8] Undefined variable: page E:\AppServ\www\hndw\home\Lib\Action\CateAction.class.php 第 28 行.
+NOTIC: [8] Trying to get property of non-object E:\AppServ\www\hndw\home\Lib\Action\CateAction.class.php 第 28 行.
+NOTIC: [8] Undefined variable: page E:\AppServ\www\hndw\home\Lib\Action\CateAction.class.php 第 29 行.
+NOTIC: [8] Trying to get property of non-object E:\AppServ\www\hndw\home\Lib\Action\CateAction.class.php 第 29 行.
+NOTIC: [8] Undefined variable: page E:\AppServ\www\hndw\home\Lib\Action\CateAction.class.php 第 30 行.
+NOTIC: [8] Trying to get property of non-object E:\AppServ\www\hndw\home\Lib\Action\CateAction.class.php 第 30 行.
+
+[ 2015-03-20 22:19:57 ] 127.0.0.1 /hndw/index.php/catetype/producttype/ps/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003183s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003412s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002427s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.008331s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' ) LIMIT 1   [ RunTime:0.000524s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' ) ORDER BY orders desc,dtime desc LIMIT 0,1   [ RunTime:0.000439s ]
+
+[ 2015-03-20 22:20:41 ] 127.0.0.1 /hndw/index.php/catetype/producttype
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001346s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001510s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000962s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.009289s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' ) LIMIT 1   [ RunTime:0.000682s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.000634s ]
+
+[ 2015-03-20 22:21:02 ] 127.0.0.1 /hndw/index.php/catetype/producttype/ps/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001341s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001490s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000872s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.008901s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' ) LIMIT 1   [ RunTime:0.000629s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' ) ORDER BY orders desc,dtime desc LIMIT 0,1   [ RunTime:0.000572s ]
+
+[ 2015-03-20 22:21:10 ] 127.0.0.1 /hndw/index.php/catetype/producttype/ps/1/pno/2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001902s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002034s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001178s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001287s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.009165s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' ) LIMIT 1   [ RunTime:0.000642s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' ) ORDER BY orders desc,dtime desc LIMIT 1,1   [ RunTime:0.000648s ]
+
+[ 2015-03-20 22:21:26 ] 127.0.0.1 /hndw/index.php/catetype/producttype/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002870s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003094s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002154s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.008920s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' ) LIMIT 1   [ RunTime:0.000657s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.000613s ]
+
+[ 2015-03-20 22:21:35 ] 127.0.0.1 /hndw/index.php/admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001294s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001455s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000763s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.077691s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077978s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001261s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001048s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000845s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004561s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001309s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001408s ]
+
+[ 2015-03-20 22:21:35 ] 127.0.0.1 /hndw/index.php/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001390s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001505s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000883s ]
+NOTIC: [8] Use of undefined constant png - assumed 'png' E:\AppServ\www\hndw\home\Lib\Action\AdminAction.class.php 第 29 行.
+
+[ 2015-03-20 22:21:44 ] 127.0.0.1 /hndw/index.php/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001990s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002142s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002115s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.058301s ]
+SQL: SELECT * FROM `tp_users` WHERE ( username ='admin' ) LIMIT 1   [ RunTime:0.000378s ]
+NOTIC: [8] Undefined variable: char E:\AppServ\www\hndw\home\Lib\Action\UtilAction.class.php 第 49 行.
+NOTIC: [8] Undefined variable: str E:\AppServ\www\hndw\home\Lib\Action\UtilAction.class.php 第 54 行.
+
+[ 2015-03-20 22:21:44 ] 127.0.0.1 /hndw/index.php/admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001391s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001590s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001063s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.005340s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000670s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.126087s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.126262s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001610s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001370s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001147s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001202s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005714s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001376s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001501s ]
+
+[ 2015-03-20T22:21:54+08:00 ] 127.0.0.1 /hndw/index.php/admin-log.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001293s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001422s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000787s ]
+NOTIC: [8] Undefined variable: group E:\AppServ\www\hndw\ThinkPHP\Lib\Core\App.class.php 第 95 行.
+ERR: 无法加载模块:admin-log
+
+[ 2015-03-20 22:23:25 ] 127.0.0.1 /hndw/index.php/admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001672s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001807s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001428s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.008661s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000586s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.048434s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048592s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000883s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000777s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000641s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000850s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003363s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001084s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001203s ]
+
+[ 2015-03-20 22:23:27 ] 127.0.0.1 /hndw/index.php/catetype/producttype
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001911s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002116s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001284s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.009033s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000645s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.009175s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' ) LIMIT 1   [ RunTime:0.000656s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.000741s ]
+
+[ 2015-03-20 22:29:48 ] 127.0.0.1 /hndw/index.php/admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002004s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002173s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001526s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.011080s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000830s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.068210s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068482s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001914s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001665s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001328s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002073s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007470s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003825s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004123s ]
+
+[ 2015-03-20 22:29:49 ] 127.0.0.1 /hndw/index.php/catetype/producttype
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002951s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003165s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001939s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002104s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.010002s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000710s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.009441s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' ) LIMIT 1   [ RunTime:0.000606s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.000619s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.038288s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038448s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001175s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001031s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000839s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001153s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004472s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001473s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001593s ]
+
+[ 2015-03-20 22:29:50 ] 127.0.0.1 /hndw/index.php/catetype/assets/js/jquery.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001292s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001424s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002453s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.004421s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000351s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.004320s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='assets' ) LIMIT 1   [ RunTime:0.000287s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='assets' ) ORDER BY orders desc,dtime desc LIMIT -9,9   [ RunTime:0.000152s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-9,9' at line 1
+ [ SQL语句 ] : SELECT * FROM `tp_category` WHERE ( keyword='assets' ) ORDER BY orders desc,dtime desc LIMIT -9,9  
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022233s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022363s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000411s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000323s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000193s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000421s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001523s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000635s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000737s ]
+
+[ 2015-03-20 22:29:50 ] 127.0.0.1 /hndw/index.php/catetype/assets/js/amazeui.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001948s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002095s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001401s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.006450s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000496s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.006158s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='assets' ) LIMIT 1   [ RunTime:0.000424s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='assets' ) ORDER BY orders desc,dtime desc LIMIT -9,9   [ RunTime:0.000264s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-9,9' at line 1
+ [ SQL语句 ] : SELECT * FROM `tp_category` WHERE ( keyword='assets' ) ORDER BY orders desc,dtime desc LIMIT -9,9  
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.038823s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038978s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001198s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001632s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000921s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001222s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005339s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001743s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001876s ]
+
+[ 2015-03-20 22:29:50 ] 127.0.0.1 /hndw/index.php/catetype/assets/js/app.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001746s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001879s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001285s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.009494s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000664s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.009500s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='assets' ) LIMIT 1   [ RunTime:0.000633s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='assets' ) ORDER BY orders desc,dtime desc LIMIT -9,9   [ RunTime:0.000339s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-9,9' at line 1
+ [ SQL语句 ] : SELECT * FROM `tp_category` WHERE ( keyword='assets' ) ORDER BY orders desc,dtime desc LIMIT -9,9  
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.051802s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052007s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001121s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001025s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000856s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001330s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004613s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002084s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002237s ]
+
+[ 2015-03-20 22:30:25 ] 127.0.0.1 /hndw/index.php/catetype/producttype
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002014s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002233s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001176s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001336s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.009959s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000734s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.009925s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' ) LIMIT 1   [ RunTime:0.000621s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.000635s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.057011s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057189s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000610s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000482s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000300s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000594s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002254s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000870s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2015-03-20 22:30:25 ] 127.0.0.1 /hndw/index.php/catetype/assets/js/amazeui.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000949s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001045s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.004302s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000339s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.004268s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='assets' ) LIMIT 1   [ RunTime:0.000302s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='assets' ) ORDER BY orders desc,dtime desc LIMIT -9,9   [ RunTime:0.000157s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-9,9' at line 1
+ [ SQL语句 ] : SELECT * FROM `tp_category` WHERE ( keyword='assets' ) ORDER BY orders desc,dtime desc LIMIT -9,9  
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023110s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023224s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000506s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000369s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000200s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000386s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001644s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000550s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000629s ]
+
+[ 2015-03-20 22:30:25 ] 127.0.0.1 /hndw/index.php/catetype/assets/js/jquery.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001903s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002046s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001147s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001257s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.010482s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000691s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.009872s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='assets' ) LIMIT 1   [ RunTime:0.000671s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='assets' ) ORDER BY orders desc,dtime desc LIMIT -9,9   [ RunTime:0.000440s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-9,9' at line 1
+ [ SQL语句 ] : SELECT * FROM `tp_category` WHERE ( keyword='assets' ) ORDER BY orders desc,dtime desc LIMIT -9,9  
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.064566s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064814s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001921s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001731s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001461s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002122s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007759s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002149s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002322s ]
+
+[ 2015-03-20 22:30:26 ] 127.0.0.1 /hndw/index.php/catetype/assets/js/app.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000834s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000931s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000704s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.014138s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000903s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.010223s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='assets' ) LIMIT 1   [ RunTime:0.000614s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='assets' ) ORDER BY orders desc,dtime desc LIMIT -9,9   [ RunTime:0.000330s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-9,9' at line 1
+ [ SQL语句 ] : SELECT * FROM `tp_category` WHERE ( keyword='assets' ) ORDER BY orders desc,dtime desc LIMIT -9,9  
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.037639s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037790s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000389s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000317s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000200s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000380s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001460s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000734s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000833s ]
+
+[ 2015-03-20T22:39:51+08:00 ] 127.0.0.1 /hndw/index.php/catetype/admin-index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003132s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003402s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002148s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002347s ]
+ERR: 无法加载模块:catetype
+
+[ 2015-03-20T22:39:53+08:00 ] 127.0.0.1 /hndw/index.php/catetype/producttype
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002139s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002405s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001547s ]
+ERR: 无法加载模块:catetype
+
+[ 2015-03-20 22:39:56 ] 127.0.0.1 /hndw/index.php/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001144s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001284s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001011s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001157s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.011269s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000837s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: pro E:\AppServ\www\hndw\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 121 行.
+NOTIC: [8] Undefined variable: pro E:\AppServ\www\hndw\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 122 行.
+NOTIC: [8] Undefined variable: pro E:\AppServ\www\hndw\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 123 行.
+NOTIC: [8] Undefined variable: pro E:\AppServ\www\hndw\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 124 行.
+NOTIC: [8] Undefined variable: pro E:\AppServ\www\hndw\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 125 行.
+NOTIC: [8] Undefined variable: pro E:\AppServ\www\hndw\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 126 行.
+NOTIC: [8] Undefined variable: pro E:\AppServ\www\hndw\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 127 行.
+NOTIC: [8] Undefined variable: pro E:\AppServ\www\hndw\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 128 行.
+NOTIC: [8] Undefined variable: pro E:\AppServ\www\hndw\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 129 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.084112s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.084388s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001531s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000977s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000807s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001193s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004909s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001803s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001981s ]
+
+[ 2015-03-20 22:39:59 ] 127.0.0.1 /hndw/index.php/admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001149s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001284s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000847s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.009272s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000652s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.053870s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054210s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000962s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000784s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000497s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000934s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003627s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001672s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001889s ]
+
+[ 2015-03-20 22:40:01 ] 127.0.0.1 /hndw/index.php/admin/product/type
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002890s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003107s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002262s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.009785s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000687s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.054773s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055247s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001965s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001837s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001349s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001785s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007393s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007641s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007872s ]
+
+[ 2015-03-20 22:40:05 ] 127.0.0.1 /hndw/index.php/admin/product/type
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001302s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001445s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000798s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.010013s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000688s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.048056s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048381s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001330s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000805s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000505s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000993s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004074s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001270s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001472s ]
+
+[ 2015-03-20 22:40:07 ] 127.0.0.1 /hndw/index.php/admin/product/type
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001230s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001363s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000803s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.008349s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000637s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.033016s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033238s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000599s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000414s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000258s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000488s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001988s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000699s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000805s ]
+
+[ 2015-03-20 22:40:30 ] 127.0.0.1 /hndw/index.php/admin/product/type
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003039s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003254s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002120s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.009952s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000766s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.045965s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046200s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001130s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000983s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000808s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004284s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001404s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001576s ]
+
+[ 2015-03-20T22:40:32+08:00 ] 127.0.0.1 /hndw/index.php/admin_product_type
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002364s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002609s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001113s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001270s ]
+ERR: 无法加载模块:Product
+
+[ 2015-03-20 22:41:00 ] 127.0.0.1 /hndw/index.php/admin_product_type
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001839s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002121s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000818s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.007298s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000531s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.007429s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) LIMIT 1   [ RunTime:0.000428s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.000392s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.032781s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032950s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000534s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000422s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000214s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000386s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001771s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000790s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000915s ]
+
+[ 2015-03-20T22:41:00+08:00 ] 127.0.0.1 /hndw/index.php/assets/js/amazeui.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001182s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001319s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000806s ]
+ERR: 无法加载模块:assets
+
+[ 2015-03-20T22:41:00+08:00 ] 127.0.0.1 /hndw/index.php/assets/js/jquery.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001798s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001952s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001438s ]
+ERR: 无法加载模块:assets
+
+[ 2015-03-20T22:41:00+08:00 ] 127.0.0.1 /hndw/index.php/assets/js/app.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000832s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000944s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000593s ]
+ERR: 无法加载模块:assets
+
+[ 2015-03-20 22:41:56 ] 127.0.0.1 /hndw/index.php/admin_product_type
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002900s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003118s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001965s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002130s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.012702s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000818s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.010271s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) LIMIT 1   [ RunTime:0.000768s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.000829s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.059899s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060189s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001072s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000832s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000522s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001191s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004095s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001364s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001563s ]
+
+[ 2015-03-20T22:41:56+08:00 ] 127.0.0.1 /hndw/index.php/assets/js/jquery.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000776s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000866s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000516s ]
+ERR: 无法加载模块:assets
+
+[ 2015-03-20T22:41:56+08:00 ] 127.0.0.1 /hndw/index.php/assets/js/amazeui.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001121s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001249s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000754s ]
+ERR: 无法加载模块:assets
+
+[ 2015-03-20T22:41:56+08:00 ] 127.0.0.1 /hndw/index.php/assets/js/app.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001649s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001787s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001329s ]
+ERR: 无法加载模块:assets
+
+[ 2015-03-20 22:42:09 ] 127.0.0.1 /hndw/index.php/admin_product_type
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001125s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001217s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000955s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.004209s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000459s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.003989s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) LIMIT 1   [ RunTime:0.000341s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.000303s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.026089s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026200s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000953s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001024s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000868s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001157s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004299s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001493s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001643s ]
+
+[ 2015-03-20T22:42:09+08:00 ] 127.0.0.1 /hndw/index.php/assets/js/jquery.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001172s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001300s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000762s ]
+ERR: 无法加载模块:assets
+
+[ 2015-03-20T22:42:09+08:00 ] 127.0.0.1 /hndw/index.php/assets/js/amazeui.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001189s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001348s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000811s ]
+ERR: 无法加载模块:assets
+
+[ 2015-03-20T22:42:09+08:00 ] 127.0.0.1 /hndw/index.php/assets/js/app.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000749s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000847s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000505s ]
+ERR: 无法加载模块:assets
+
+[ 2015-03-20 22:44:44 ] 127.0.0.1 /hndw/index.php/admin_product_type
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002990s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003215s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002098s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.010077s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000870s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.010203s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) LIMIT 1   [ RunTime:0.000724s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.000704s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.048497s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048674s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001697s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001066s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000815s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001126s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005005s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001442s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004102s ]
+
+[ 2015-03-20T22:44:44+08:00 ] 127.0.0.1 /hndw/index.php/assets/js/amazeui.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001673s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001802s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001322s ]
+ERR: 无法加载模块:assets
+
+[ 2015-03-20T22:44:44+08:00 ] 127.0.0.1 /hndw/index.php/assets/js/jquery.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001694s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001830s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001380s ]
+ERR: 无法加载模块:assets
+
+[ 2015-03-20T22:44:44+08:00 ] 127.0.0.1 /hndw/index.php/assets/js/app.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001628s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001751s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001342s ]
+ERR: 无法加载模块:assets
+
+[ 2015-03-20 22:48:25 ] 127.0.0.1 /hndw/index.php/admin_product_type
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003133s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003413s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002150s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002372s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.011294s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000800s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.010492s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) LIMIT 1   [ RunTime:0.000706s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.000696s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.048007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048316s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001991s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001906s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001357s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002604s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008420s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003036s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003249s ]
+
+[ 2015-03-20 22:49:13 ] 127.0.0.1 /hndw/index.php/admin_product_type
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002937s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003159s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002143s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.009319s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000688s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.008075s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) LIMIT 1   [ RunTime:0.000424s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.000439s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.028610s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028777s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001277s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001161s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000941s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001168s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004900s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001660s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001780s ]
+
+[ 2015-03-20 22:50:36 ] 127.0.0.1 /hndw/index.php/admin_product_type
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003380s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003644s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002766s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.008210s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000580s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.008426s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) LIMIT 1   [ RunTime:0.000617s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.000464s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.041912s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042166s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001916s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001698s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001435s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001649s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007328s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001988s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002213s ]
+
+[ 2015-03-20 22:51:38 ] 127.0.0.1 /hndw/index.php/admin_product_type
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003402s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003666s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003009s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.010268s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001028s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.009919s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) LIMIT 1   [ RunTime:0.000700s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.000809s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  condition E:\AppServ\www\hndw\ThinkPHP\Lib\Driver\TagLib\TagLibCx.class.php 第 158 行.
+
+[ 2015-03-20 22:51:52 ] 127.0.0.1 /hndw/index.php/admin_product_type
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001903s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002050s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001339s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.009030s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000639s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.009208s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) LIMIT 1   [ RunTime:0.000576s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.000553s ]
+INFO: [ view_parse ] --START--
+
+[ 2015-03-20 22:51:53 ] 127.0.0.1 /hndw/index.php/admin_product_type
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001468s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001639s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000842s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.009693s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000870s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.010716s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) LIMIT 1   [ RunTime:0.000650s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.000862s ]
+INFO: [ view_parse ] --START--
+
+[ 2015-03-20 22:52:48 ] 127.0.0.1 /hndw/index.php/admin_product_type
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001164s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001300s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000845s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.010722s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000676s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.008870s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) LIMIT 1   [ RunTime:0.000635s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.000613s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.042012s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042291s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002533s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001869s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001370s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001829s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008175s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002705s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002929s ]
+
+[ 2015-03-20 22:53:41 ] 127.0.0.1 /hndw/index.php/admin_product_type
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003022s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003250s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001541s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.008949s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000714s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.008478s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) LIMIT 1   [ RunTime:0.000667s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.000619s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.045396s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045604s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002556s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002358s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002011s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001646s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009198s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001900s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002124s ]
+
+[ 2015-03-20 22:53:42 ] 127.0.0.1 /hndw/index.php/admin_product_type
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001207s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001350s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001469s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.005683s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000373s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.004547s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) LIMIT 1   [ RunTime:0.000347s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.000288s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017151s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017255s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000379s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000426s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000225s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000369s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001575s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001029s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001152s ]
+
+[ 2015-03-20 22:54:56 ] 127.0.0.1 /hndw/index.php/admin_product_type
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002113s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002263s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001398s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.009556s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000697s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.007188s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) LIMIT 1   [ RunTime:0.000398s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.000409s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027183s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027309s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000707s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000631s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000526s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000701s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002734s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000949s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002567s ]
+
+[ 2015-03-20 22:54:57 ] 127.0.0.1 /hndw/index.php/admin_product_type
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003255s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003480s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001958s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002126s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.009417s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000633s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.009669s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) LIMIT 1   [ RunTime:0.000691s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.000687s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030416s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030601s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001126s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001042s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000907s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004654s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001931s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002061s ]
+
+[ 2015-03-20 22:55:34 ] 127.0.0.1 /hndw/index.php/admin_product_type
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001388s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001532s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000803s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.009510s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000725s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.009203s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) LIMIT 1   [ RunTime:0.000639s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.000627s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.037339s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037546s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000809s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000904s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000461s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000974s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003562s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001837s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002024s ]
+
+[ 2015-03-20 22:56:09 ] 127.0.0.1 /hndw/index.php/admin_product_type
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001943s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002150s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001108s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001268s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.009618s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000725s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.008977s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) LIMIT 1   [ RunTime:0.000847s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.000742s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.028454s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028633s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000528s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000459s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000298s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000550s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002084s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000768s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000871s ]
+
+[ 2015-03-20 22:56:11 ] 127.0.0.1 /hndw/index.php/admin_product_type
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001918s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002125s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001157s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001329s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.010225s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000680s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.005776s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) LIMIT 1   [ RunTime:0.000618s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.000504s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024488s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024613s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000389s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000317s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000199s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000364s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001451s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000615s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000715s ]
+
+[ 2015-03-20 22:56:32 ] 127.0.0.1 /hndw/index.php/admin_product_type
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001262s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001406s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000797s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.008685s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000641s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.008311s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) LIMIT 1   [ RunTime:0.000606s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.000710s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.040634s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040884s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000887s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000714s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000449s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000852s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003294s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001473s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001651s ]
+
+[ 2015-03-20 22:56:33 ] 127.0.0.1 /hndw/index.php/admin_product_type
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001944s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002159s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001170s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001351s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.009903s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000694s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.011282s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) LIMIT 1   [ RunTime:0.000657s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.000691s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.028528s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028714s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000720s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000505s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000314s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000586s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002426s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001189s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001316s ]
+
+[ 2015-03-20 22:56:34 ] 127.0.0.1 /hndw/index.php/admin_product_type
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001698s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001842s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001385s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.009187s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000663s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.010171s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) LIMIT 1   [ RunTime:0.000656s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.000809s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.047092s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047315s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001625s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001497s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001222s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001698s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006473s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002230s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002414s ]
+
+[ 2015-03-20 22:58:17 ] 127.0.0.1 /hndw/index.php/admin_product_type
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001672s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001797s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000913s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.008871s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000601s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.008216s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) LIMIT 1   [ RunTime:0.000573s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.000544s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.049995s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050182s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001409s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001924s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001168s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001527s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006430s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002058s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002224s ]
+
+[ 2015-03-20 22:58:51 ] 127.0.0.1 /hndw/index.php/admin_product_type
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003069s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003316s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002120s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002304s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.009462s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000805s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.009170s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) LIMIT 1   [ RunTime:0.000736s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.000686s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.049149s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049381s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002325s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001958s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001778s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009078s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002370s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002575s ]
+
+[ 2015-03-20 22:58:52 ] 127.0.0.1 /hndw/index.php/admin_product_type
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001301s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001392s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001007s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.009223s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000702s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.009566s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) LIMIT 1   [ RunTime:0.000577s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.000580s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.047060s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047239s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001093s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001529s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000837s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001143s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004914s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001729s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001850s ]
+
+[ 2015-03-20 22:58:53 ] 127.0.0.1 /hndw/index.php/admin_product_type
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001284s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001429s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000832s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.006741s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000488s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.006783s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) LIMIT 1   [ RunTime:0.000462s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.000432s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024556s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024717s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000532s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000431s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000297s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000536s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002057s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000844s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000962s ]
+
+[ 2015-03-20 22:58:53 ] 127.0.0.1 /hndw/index.php/admin_product_type
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002276s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002419s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001869s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.010396s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000698s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.010653s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) LIMIT 1   [ RunTime:0.000660s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.000604s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.045092s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045297s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001579s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001421s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001148s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001566s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006096s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.006406s ]
+INFO: [ view_end ] --END-- [ RunTime:0.006627s ]
+
+[ 2015-03-20 23:03:25 ] 127.0.0.1 /hndw/index.php/admin_product_type
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002772s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002993s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002339s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.009818s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000795s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.008855s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) LIMIT 1   [ RunTime:0.000653s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.000663s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.049820s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050063s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001835s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001639s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001318s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001786s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007003s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002429s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002720s ]
+
+[ 2015-03-20T23:03:25+08:00 ] 127.0.0.1 /hndw/index.php/__PUBLUC__/js/kkpager.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001914s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002049s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000908s ]
+NOTIC: [8] Undefined variable: group E:\AppServ\www\hndw\ThinkPHP\Lib\Core\App.class.php 第 95 行.
+ERR: 无法加载模块:__PUBLUC__
+
+[ 2015-03-20T23:03:25+08:00 ] 127.0.0.1 /hndw/index.php/productTypeList.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001100s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001180s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001102s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001212s ]
+NOTIC: [8] Undefined variable: group E:\AppServ\www\hndw\ThinkPHP\Lib\Core\App.class.php 第 95 行.
+ERR: 无法加载模块:productTypeList.js
+
+[ 2015-03-20 23:05:23 ] 127.0.0.1 /hndw/index.php/admin_product_type
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001161s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001302s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000744s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.004210s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000334s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.003570s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) LIMIT 1   [ RunTime:0.000332s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.000253s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025259s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025390s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001080s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000975s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000718s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001176s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004218s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002979s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003085s ]
+
+[ 2015-03-20T23:05:23+08:00 ] 127.0.0.1 /hndw/index.php/__PUBLUC__/js/kkpager.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001176s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001317s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000828s ]
+NOTIC: [8] Undefined variable: group E:\AppServ\www\hndw\ThinkPHP\Lib\Core\App.class.php 第 95 行.
+ERR: 无法加载模块:__PUBLUC__
+
+[ 2015-03-20 23:05:24 ] 127.0.0.1 /hndw/index.php/admin_product_type
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001674s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001813s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001331s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.005103s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000362s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.003784s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) LIMIT 1   [ RunTime:0.000313s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.000299s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024455s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024585s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000765s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000760s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000576s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003418s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000934s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001021s ]
+
+[ 2015-03-20 23:05:24 ] 127.0.0.1 /hndw/index.php/admin_product_type
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001152s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001286s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000770s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.005278s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000347s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.005427s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) LIMIT 1   [ RunTime:0.000321s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.000310s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024088s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024208s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000367s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000307s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000201s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000365s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001427s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000501s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000581s ]
+
+[ 2015-03-20 23:05:24 ] 127.0.0.1 /hndw/index.php/admin_product_type
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000787s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000882s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000504s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.003856s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000269s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.003544s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) LIMIT 1   [ RunTime:0.000247s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.000242s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016463s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016555s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000343s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000295s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000191s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000356s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001353s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000493s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000557s ]
+
+[ 2015-03-20 23:05:25 ] 127.0.0.1 /hndw/index.php/admin_product_type
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000897s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000980s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000574s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.005829s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000375s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.005429s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) LIMIT 1   [ RunTime:0.000424s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.000924s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019850s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019962s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000355s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000312s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000191s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000358s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001389s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000498s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000566s ]
+
+[ 2015-03-20 23:05:25 ] 127.0.0.1 /hndw/index.php/admin_product_type
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001803s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001964s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001359s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.004344s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000382s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.003788s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) LIMIT 1   [ RunTime:0.000319s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.000343s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020145s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020245s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000722s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000662s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000541s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000700s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002829s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001129s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001229s ]
+
+[ 2015-03-20T23:05:25+08:00 ] 127.0.0.1 /hndw/index.php/__PUBLUC__/js/kkpager.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001146s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001290s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+NOTIC: [8] Undefined variable: group E:\AppServ\www\hndw\ThinkPHP\Lib\Core\App.class.php 第 95 行.
+ERR: 无法加载模块:__PUBLUC__
+
+[ 2015-03-20 23:05:59 ] 127.0.0.1 /hndw/index.php/admin_product_type
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003443s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003672s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001915s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.007932s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000474s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.007559s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) LIMIT 1   [ RunTime:0.000465s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.000413s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.039831s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040004s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001396s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001407s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001187s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001921s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006354s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002278s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002444s ]
+
+[ 2015-03-20 23:06:24 ] 127.0.0.1 /hndw/index.php/admin_product_type
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001657s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001789s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001165s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001270s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.009429s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000740s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.009855s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) LIMIT 1   [ RunTime:0.000870s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.000666s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.041699s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041920s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000872s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000752s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000483s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000895s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003418s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001497s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001662s ]
+
+[ 2015-03-20 23:06:25 ] 127.0.0.1 /hndw/index.php/admin_product_type
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001815s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001960s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001414s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.009225s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000743s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.009983s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) LIMIT 1   [ RunTime:0.000669s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.001265s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.048589s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048829s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001637s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001880s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001252s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001704s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006895s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.005604s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007539s ]
+
+[ 2015-03-20 23:06:25 ] 127.0.0.1 /hndw/index.php/admin_product_type
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000983s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001112s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000762s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.007060s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000523s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.006999s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) LIMIT 1   [ RunTime:0.000529s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.000500s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022246s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022390s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000437s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000372s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000228s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000425s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001666s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000593s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000680s ]
+
+[ 2015-03-20 23:06:25 ] 127.0.0.1 /hndw/index.php/admin_product_type
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001179s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001324s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000768s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.011695s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000743s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.006281s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) LIMIT 1   [ RunTime:0.000565s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.000698s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024241s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024384s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000395s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000301s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000193s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000361s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001418s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000517s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000591s ]
+
+[ 2015-03-20 23:06:26 ] 127.0.0.1 /hndw/index.php/admin_product_type
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001166s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001261s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000877s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.008400s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000702s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.008675s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) LIMIT 1   [ RunTime:0.000571s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.000537s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.028071s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028259s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001065s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000904s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000728s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001274s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004256s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001338s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001451s ]
+
+[ 2015-03-20 23:06:26 ] 127.0.0.1 /hndw/index.php/admin_product_type
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001218s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001360s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000708s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.007969s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000579s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.007675s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) LIMIT 1   [ RunTime:0.000592s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.000572s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.038675s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038882s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000753s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000653s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000448s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000779s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003032s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001137s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001296s ]
+
+[ 2015-03-20 23:06:26 ] 127.0.0.1 /hndw/index.php/admin_product_type
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001871s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002098s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001176s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001343s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.009292s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000672s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.009319s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) LIMIT 1   [ RunTime:0.000701s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.000664s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.044407s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044633s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000951s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000781s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000492s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001296s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006474s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000921s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001126s ]
+
+[ 2015-03-20 23:06:26 ] 127.0.0.1 /hndw/index.php/admin_product_type
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001042s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001162s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000679s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.010522s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000776s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.009986s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) LIMIT 1   [ RunTime:0.000671s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.000662s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.044411s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044683s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001162s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000806s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000491s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000895s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003842s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001284s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001450s ]
+
+[ 2015-03-20 23:06:27 ] 127.0.0.1 /hndw/index.php/admin_product_type
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001168s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001296s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000747s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.009715s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000706s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.011026s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) LIMIT 1   [ RunTime:0.000679s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.000777s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.044816s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045051s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000975s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000926s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000534s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000913s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003793s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001358s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001531s ]
+
+[ 2015-03-20 23:06:27 ] 127.0.0.1 /hndw/index.php/admin_product_type
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001904s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002115s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001156s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001349s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.009111s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000721s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.009290s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) LIMIT 1   [ RunTime:0.000675s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.000669s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.042427s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042647s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000868s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000750s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000481s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003669s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001497s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001692s ]
+
+[ 2015-03-20 23:06:43 ] 127.0.0.1 /hndw/index.php/admin_product_type
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001992s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002205s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001269s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.009138s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000615s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.008825s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) LIMIT 1   [ RunTime:0.000476s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.000431s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.026984s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027130s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000576s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000514s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000313s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000673s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002343s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000894s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001043s ]
+
+[ 2015-03-20 23:06:44 ] 127.0.0.1 /hndw/index.php/admin_product_type
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001801s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001989s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000818s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.009887s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000660s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.008868s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) LIMIT 1   [ RunTime:0.000647s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.042079s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042281s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000723s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000582s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000377s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000581s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002602s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001032s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001168s ]
+
+[ 2015-03-20 23:06:44 ] 127.0.0.1 /hndw/index.php/admin_product_type
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000775s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000868s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.004988s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000307s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.003645s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) LIMIT 1   [ RunTime:0.000255s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.000221s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019415s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019530s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000385s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000302s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000193s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000360s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001407s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000634s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000758s ]
+
+[ 2015-03-20 23:06:45 ] 127.0.0.1 /hndw/index.php/admin_product_type
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000814s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000926s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.004634s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000381s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.003948s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) LIMIT 1   [ RunTime:0.000377s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.000522s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021252s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021372s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000363s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000304s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000193s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000546s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001589s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000719s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000897s ]
+
+[ 2015-03-20 23:06:45 ] 127.0.0.1 /hndw/index.php/admin_product_type
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001023s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001155s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000943s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.004006s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000399s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.004213s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) LIMIT 1   [ RunTime:0.000366s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.000360s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019596s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019698s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000366s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000385s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000267s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000533s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001772s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000743s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000855s ]
+
+[ 2015-03-20 23:06:55 ] 127.0.0.1 /hndw/index.php/admin_product_type
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000780s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000887s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000515s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.005283s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000335s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.004937s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) LIMIT 1   [ RunTime:0.000334s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.000313s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020856s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020959s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000369s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000307s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000199s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000364s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001409s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000601s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000669s ]
+
+[ 2015-03-20 23:06:56 ] 127.0.0.1 /hndw/index.php/admin_product_type
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000767s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000859s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000502s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.003847s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000265s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.003720s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) LIMIT 1   [ RunTime:0.000750s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.000273s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017258s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017352s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000358s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000300s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000191s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000443s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001458s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000679s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000777s ]
+
+[ 2015-03-20 23:06:56 ] 127.0.0.1 /hndw/index.php/admin_product_type
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000877s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001007s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000651s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.011618s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000652s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.010636s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) LIMIT 1   [ RunTime:0.000550s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.000518s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.042972s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043221s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000977s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000786s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000471s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001046s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003717s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001330s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001511s ]
+
+[ 2015-03-20 23:06:56 ] 127.0.0.1 /hndw/index.php/admin_product_type
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002528s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002838s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001374s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.005906s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000429s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.005893s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) LIMIT 1   [ RunTime:0.000503s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.000456s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.026507s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026656s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000582s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000483s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000305s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000593s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002227s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000789s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000900s ]
+
+[ 2015-03-20 23:06:57 ] 127.0.0.1 /hndw/index.php/admin_product_type
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001893s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002100s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001156s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001311s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.006980s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000466s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.006505s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) LIMIT 1   [ RunTime:0.000334s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.000395s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020282s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020402s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000453s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000357s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000228s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000429s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001668s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000579s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000674s ]
+
+[ 2015-03-20 23:06:57 ] 127.0.0.1 /hndw/index.php/admin_product_type
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001468s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001650s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001046s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.007370s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000533s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.006810s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) LIMIT 1   [ RunTime:0.000570s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.000575s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031818s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032072s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000833s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000620s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000368s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000687s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002857s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001006s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001219s ]
+
+[ 2015-03-20 23:06:57 ] 127.0.0.1 /hndw/index.php/admin_product_type
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001475s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001645s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001046s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.005899s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000463s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.005882s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) LIMIT 1   [ RunTime:0.000431s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.000435s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.028473s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028614s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000579s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000501s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000299s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000759s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002456s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000850s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000969s ]
+
+[ 2015-03-20 23:06:57 ] 127.0.0.1 /hndw/index.php/admin_product_type
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002653s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002882s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001123s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001288s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.008037s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000559s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.008987s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) LIMIT 1   [ RunTime:0.000628s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.000612s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.039952s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040231s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000851s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000868s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000445s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000782s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003341s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001123s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001330s ]
+
+[ 2015-03-20 23:06:58 ] 127.0.0.1 /hndw/index.php/admin_product_type
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001950s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002179s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001115s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.009510s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000683s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.009359s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) LIMIT 1   [ RunTime:0.000669s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.000674s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.042247s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042471s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000877s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000753s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000476s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000896s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003411s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001703s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001893s ]
+
+[ 2015-03-20 23:06:58 ] 127.0.0.1 /hndw/index.php/admin_product_type
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002401s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002618s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001136s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001294s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.007985s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000571s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.008254s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) LIMIT 1   [ RunTime:0.000599s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.000648s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.037276s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037475s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000751s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000635s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000421s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000766s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002925s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001263s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001488s ]
+
+[ 2015-03-20 23:06:59 ] 127.0.0.1 /hndw/index.php/admin_product_type
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000899s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001009s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000532s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.004067s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000356s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.003765s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) LIMIT 1   [ RunTime:0.000354s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.000327s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017173s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017275s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000379s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000299s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000186s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000353s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001378s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000540s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000608s ]
+
+[ 2015-03-20 23:06:59 ] 127.0.0.1 /hndw/index.php/admin_product_type
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000930s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001031s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000533s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.008841s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000568s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.007571s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) LIMIT 1   [ RunTime:0.000578s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.000597s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.034543s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034729s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000802s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000720s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000400s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000731s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003019s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001011s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001143s ]
+
+[ 2015-03-20 23:06:59 ] 127.0.0.1 /hndw/index.php/admin_product_type
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000907s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000493s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.005874s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000415s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.005695s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) LIMIT 1   [ RunTime:0.000444s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.000402s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027070s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027238s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000613s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000496s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000311s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000603s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002293s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000798s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000899s ]
+
+[ 2015-03-20 23:07:00 ] 127.0.0.1 /hndw/index.php/admin_product_type
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000843s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000926s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000490s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.007516s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000597s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.007511s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) LIMIT 1   [ RunTime:0.000756s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.000603s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.034277s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034464s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000700s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000717s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000385s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000717s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002853s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000964s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001091s ]
+
+[ 2015-03-20 23:07:00 ] 127.0.0.1 /hndw/index.php/admin_product_type
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000848s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000951s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000522s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.009828s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000675s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.008813s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) LIMIT 1   [ RunTime:0.000665s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.000651s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.043410s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043638s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000916s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000763s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000500s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001025s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003642s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001364s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001533s ]
+
+[ 2015-03-20 23:07:01 ] 127.0.0.1 /hndw/index.php/admin_product_type
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000776s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000863s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000513s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.009216s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000725s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.009314s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) LIMIT 1   [ RunTime:0.000610s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.000821s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.040810s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041026s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000557s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000479s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000302s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000569s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002172s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000762s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000862s ]
+
+[ 2015-03-20 23:07:01 ] 127.0.0.1 /hndw/index.php/admin_product_type
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000937s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001056s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000497s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.009393s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000824s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.008936s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) LIMIT 1   [ RunTime:0.000581s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.000571s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031644s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031793s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000480s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000410s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000255s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000486s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001852s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000659s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000746s ]
+
+[ 2015-03-20 23:07:02 ] 127.0.0.1 /hndw/index.php/admin_product_type
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001894s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002052s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001369s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.007225s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000478s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.005663s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) LIMIT 1   [ RunTime:0.000420s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.000412s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.029254s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029394s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001107s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001006s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000881s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001363s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004648s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002947s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003113s ]
+
+[ 2015-03-20 23:07:14 ] 127.0.0.1 /hndw/index.php/admin_product_type
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001154s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001289s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000751s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.009524s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001025s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.009155s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) LIMIT 1   [ RunTime:0.000600s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.000739s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.043553s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043776s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000951s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000765s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000475s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000905s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003516s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001314s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001482s ]
+
+[ 2015-03-20 23:08:04 ] 127.0.0.1 /hndw/index.php/admin_product_type
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000818s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000921s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000518s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.003885s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000385s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.003948s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) LIMIT 1   [ RunTime:0.000272s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.000282s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018819s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018929s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000372s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000309s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000204s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000434s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001495s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000541s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000618s ]
+
+[ 2015-03-20 23:08:05 ] 127.0.0.1 /hndw/index.php/admin_product_type
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001177s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001269s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000895s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.005489s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000346s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.004884s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) LIMIT 1   [ RunTime:0.000322s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.000290s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025435s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025555s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000773s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000658s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000616s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000754s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002997s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001345s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001465s ]
+
+[ 2015-03-20 23:08:06 ] 127.0.0.1 /hndw/index.php/admin_product_type
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000857s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000940s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.004350s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000288s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.004261s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) LIMIT 1   [ RunTime:0.000446s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.000467s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020295s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020428s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000563s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000447s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000234s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000372s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001840s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000576s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000694s ]
+
+[ 2015-03-20 23:08:06 ] 127.0.0.1 /hndw/index.php/admin_product_type
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001789s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001934s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001320s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.004653s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000315s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.004154s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) LIMIT 1   [ RunTime:0.000275s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.000307s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020386s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020494s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000772s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000666s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000756s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000924s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003343s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001379s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001509s ]
+
+[ 2015-03-20 23:08:39 ] 127.0.0.1 /hndw/index.php/admin_product_type
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002750s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002964s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001994s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002150s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.009079s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000679s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.009472s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) LIMIT 1   [ RunTime:0.000741s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.000693s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.050093s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050327s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002452s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001951s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001427s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001769s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008266s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002356s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002525s ]
+
+[ 2015-03-20 23:08:40 ] 127.0.0.1 /hndw/index.php/admin_product_type
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001581s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001749s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000772s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.008572s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000618s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.008765s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) LIMIT 1   [ RunTime:0.000626s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.000618s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.035939s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036111s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000563s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000482s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000284s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000514s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002090s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000741s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000845s ]
+
+[ 2015-03-20 23:08:41 ] 127.0.0.1 /hndw/index.php/admin_product_type
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002132s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002288s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001836s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.007999s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000450s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.005686s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) LIMIT 1   [ RunTime:0.000519s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.000461s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.026558s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026683s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000901s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000748s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000558s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000937s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003436s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001157s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001262s ]
+
+[ 2015-03-20 23:08:41 ] 127.0.0.1 /hndw/index.php/admin_product_type
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001153s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001296s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000898s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.010703s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000784s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.008066s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) LIMIT 1   [ RunTime:0.000565s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' and showing =1 ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.000651s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.036732s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036957s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000794s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000656s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000410s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000766s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002983s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001445s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001608s ]
+
+[ 2015-03-20 23:56:17 ] 127.0.0.1 /hndw/index.php/admin_product_type
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001068s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001164s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000812s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.003795s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000360s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.003673s ]
+NOTIC: [8] Undefined index:  showing E:\AppServ\www\hndw\home\Lib\Action\ProductAction.class.php 第 12 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' ) LIMIT 1   [ RunTime:0.000301s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.000287s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020190s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020302s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000735s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000668s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000640s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000775s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003004s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001044s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001113s ]
+
+[ 2015-03-20 23:56:18 ] 127.0.0.1 /hndw/index.php/admin_product_type
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001426s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001565s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001149s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001257s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.004584s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000373s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.004573s ]
+NOTIC: [8] Undefined index:  showing E:\AppServ\www\hndw\home\Lib\Action\ProductAction.class.php 第 12 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' ) LIMIT 1   [ RunTime:0.000340s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.000308s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021373s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021485s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000713s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000681s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000574s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000727s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002881s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000971s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001054s ]
+
+[ 2015-03-20 23:56:44 ] 127.0.0.1 /hndw/index.php/admin_product_type
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000839s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000968s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.005722s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000430s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.005613s ]
+NOTIC: [8] Undefined index:  showing E:\AppServ\www\hndw\home\Lib\Action\ProductAction.class.php 第 12 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' ) LIMIT 1   [ RunTime:0.000425s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.000395s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031064s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031225s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000603s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000672s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000454s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000849s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002937s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000993s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001140s ]
+
+[ 2015-03-20 23:56:46 ] 127.0.0.1 /hndw/index.php/admin_product
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000882s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000989s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000591s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.006643s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000573s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.006319s ]
+NOTIC: [8] Undefined index:  showing E:\AppServ\www\hndw\home\Lib\Action\ProductAction.class.php 第 59 行.
+NOTIC: [8] Undefined index:  typeid E:\AppServ\www\hndw\home\Lib\Action\ProductAction.class.php 第 60 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' ) LIMIT 1   [ RunTime:0.000592s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' and showing =%d ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.000257s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%d ) ORDER BY orders desc,dtime desc LIMIT 0,9' at line 1
+ [ SQL语句 ] : SELECT * FROM `tp_category` WHERE ( keyword='producttype' and showing =%d ) ORDER BY orders desc,dtime desc LIMIT 0,9  
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015157s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015298s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000314s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000276s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000201s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000353s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001297s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001227s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001349s ]
+
+[ 2015-03-20 23:58:23 ] 127.0.0.1 /hndw/index.php/admin_product
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001105s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001203s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001010s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001111s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.008166s ]
+SQL: SELECT * FROM `tp_users` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000684s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.009117s ]
+NOTIC: [8] Undefined index:  showing E:\AppServ\www\hndw\home\Lib\Action\ProductAction.class.php 第 59 行.
+NOTIC: [8] Undefined index:  typeid E:\AppServ\www\hndw\home\Lib\Action\ProductAction.class.php 第 60 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_category` WHERE ( keyword='producttype' ) LIMIT 1   [ RunTime:0.000330s ]
+SQL: SELECT * FROM `tp_category` WHERE ( keyword='producttype' ) ORDER BY orders desc,dtime desc LIMIT 0,9   [ RunTime:0.000275s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024929s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025125s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000975s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000857s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000690s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000766s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003500s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001124s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001212s ]
+

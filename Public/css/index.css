@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,ul,li,input,p,br,from,h1,h2,h3,h4,h5,h6,dl,dt,dd,float,img{margin:0px; padding:0px; font-family:"宋体";}
+body{ background:#e8e8e8;font-size:12px;}
+td{ line-height:25px;}
+ul,li{list-style:none;}
+img{border:none;}
+a{color:#333; text-decoration:none;}
+a:hover{text-decoration:none; color:#004d9b;}
+table,td{ margin:0; padding:0;}
+.clear{ clear:both;}
+.plist{
+	overflow: hidden;
+	padding-bottom: 100px;
+	min-height: 760px;
+}
+
+.plist  .add_list{ width:883px; margin:0 auto;}
+.plist  .add_list li{ width:215px; height:245px; float:left; margin:25px 0 0 24px;list-style:none;}
+.plist  .add_list li img{ border:2px solid #004d9c;}
+.plist  .add_list li span{ text-align:center; font-size:14px; display:block; width:219px;  margin-top:5px;margin-left: 10px;}
+.plist  .add_list li a{ color:#004d9c;}
+
+
+.fwfw{ background:url(../images/fw.jpg) no-repeat; width:323px; height:129px; float:left;}
+.fwfw a{ display:block;width:323px; height:129px;background:url(../images/fw.jpg) no-repeat;}
+.fwfw a:hover{ background:url(../images/fw_hover.jpg) no-repeat center;}
+
+
+.cgal{ background:url(../images/cgal.jpg) no-repeat; width:320px; height:129px; float:left; margin-left:17px;}
+.cgal a{ display:block;width:320px; height:129px;background:url(../images/cgal.jpg) no-repeat;}
+.cgal a:hover{ background:url(../images/cgal_hover.jpg) no-repeat center;}
+
+
+.hzhb{ background:url(../images/hzhb.jpg) no-repeat; width:320px; height:129px; float:left; margin-left:20px;}
+.hzhb a{ display:block;width:320px; height:129px;background:url(../images/hzhb.jpg) no-repeat;}
+.hzhb a:hover{ background:url(../images/hzhb_hover.jpg) no-repeat center;}
+
+
+
+.about{ background:url(../images/about_bg.png) no-repeat; width:341px; height:280px; float:left; margin-top:15px;}
+.about img{ width:295px; height:80px;margin:63px 0 0 24px;}
+.about .nei{ width:295px; margin:15px auto 0; height:85px; line-height:17px;}
+.about .nei a{ color:#0088b9; text-decoration:none;}
+.about .nei a:hover{ color:#0088b9; text-decoration:underline;}
+
+
+.news{ background:url(../images/news.png) no-repeat; width:377px; height:280px; float:left;margin-top:15px;}
+.news .top{ width:335px; height:80px; margin:63px auto 0; line-height:18px;  }
+.news .top img{ float:left; margin-right:6px;}
+.news .top h1{ font-size:14px; color:#004d9c; overflow:hidden; height:25px; line-height:25px;}
+.news .top h1 a{ color:#004d9c; text-decoration:none;}
+.news .top h1 a:hover{ color:#004d9c;}
+.news .top a{color:#0088b9; text-decoration:none;}
+.news .top a:hover{color:#0088b9; text-decoration:underline;}
+
+
+.news .new_list{ width:335px; margin:10px auto 0; padding:0;}
+.news .new_list li{ list-style:square;  list-style-position:inside; height:22px; line-height:22px; border-bottom:1px dotted #999997;}
+
+
+.job{  width:282px; height:280px; float:left;margin-top:15px;}
+.job .nei{ width:262px; height:174px; margin:10px auto 0; overflow:hidden;}
+
+.img_nav {position: relative; width: 262px; float: left; height: 174px; margin:10px 0 0 10px;}
+.big_img a {position: absolute; top: 0px; left: 0px}
+.img_nav img {width: 262px; height:174px}
+.num_nav {position: absolute; bottom: 7px; right: 2px}
+
+
+
+.honor_top{ background:url(../images/honor.png) no-repeat center top; width:1000px; height:37px; margin:0 auto;}
+.blk_18 {margin:8px auto 35px; overflow: hidden; width: 1000px; height:200px;}
+.blk_18 .pcont {float: left; overflow: hidden; width: 954px}
+.blk_18 .ScrCont {width: 32766px; }
+.blk_18 #List1_1 {float: left}
+.blk_18 #List2_1 {float: left}
+.blk_18 .LeftBotton {background:url(../images/arrowl.png) no-repeat;  float: left; margin: 62px 0 0 0; width: 18px; height: 57px}
+.blk_18 .RightBotton{ background:url(../images/arrowr.png) no-repeat; float: left; margin: 62px 0 0 5px; width: 18px; height: 57px}
+.blk_18 .LeftBotton:hover {background:url(../images/arrowl_hover.png) no-repeat;}
+.blk_18 .RightBotton:hover {background:url(../images/arrowr_hover.png) no-repeat;}
+.blk_18 .pl img { width:218px; height:162px; display: block; margin: 4px auto 1px; CURSOR: pointer; }
+.blk_18 .pl { float: left;  width: 226px; height:200px; line-height: 30px;text-align: center; text-decoration: underline}
+.blk_18 A.pl { border:1px solid #d1d1d1; background: #d1d1d1; color: #333333; height:198px; margin-left:9px; text-decoration:none;}
+.blk_18 A.pl:hover { border:1px solid #d1d1d1;background: #0860a0; color: #ffffff; }
+.commu_cont3 {margin: 9px 7px 7px; line-height: 150%}
+.commu_cont3 UL { width: 188px}
+
+
+

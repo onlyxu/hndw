@@ -1,0 +1,53 @@
+<!doctype html>
+<html class="no-js">
+<head>
+ 	<include file="Public:admin_head" />
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/kkpager.css" />
+</head>
+<body>
+<!--网页顶部 start-->
+	<include file="Public:admin_top" />
+<!--网页顶部end-->
+
+<div class="am-cf admin-main">
+ <!-- 左侧菜单start -->
+ 	<include file="Public:admin_left" />
+  <!-- 左侧菜单 end -->
+  <!-- content start -->
+  <div class="admin-content">
+
+    <div class="am-cf am-padding">
+      <div class="am-fl am-cf"><strong class="am-text-primary am-text-lg">首页</strong> / <small>产品列表</small></div>
+    </div>
+
+    <ul class="am-avg-sm-2 am-avg-md-4 am-avg-lg-6 am-margin gallery-list">
+     <volist name="items" id="vo">
+      <li>
+        <a href="#">
+          <img class="am-img-thumbnail am-img-bdrs" src="http://cn.bing.com/az/hprichv/LondonTrainStation_GettyRR_139321755_ZH-CN742316019.jpg" alt=""/>
+          <div class="gallery-title">远方 有一个地方 那里种有我们的梦想</div>
+          <div class="gallery-desc">2375-09-26</div>
+        </a>
+      </li>
+     </volist>
+
+    </ul>
+
+    <div class="am-margin am-cf" id="kkpager">
+
+    </div>
+
+  </div>
+  <!-- content end -->
+
+</div>
+<input type="hidden" id="pagecount" value="{$pagecount}" />
+<input type="hidden" id="itemscount" value="{$itemscount}" />
+<input type="hidden" id="pageno" value="{$pageno}" />
+<input type="hidden" id="size" value="10" />
+<include file="Public:admin_buttom" />
+<include file="Public:admin_script" />
+<script type="text/javascript" src="__PUBLIC__/js/kkpager.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/js/product/productList.js"></script>
+</body>
+</html>
