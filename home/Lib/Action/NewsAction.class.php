@@ -1,8 +1,8 @@
 <?php
-class ProductAction extends CommonAction{
+class NewsAction extends CommonAction{
 
 	/**
-	 * 获取产品分类
+	 * 获取新闻分类列表
 	 * keyword=producttype
 	 */
 	public  function getTypeList()
@@ -14,9 +14,9 @@ class ProductAction extends CommonAction{
 		$pageSize = isset($_GET['ps'])?$_GET['ps']:9;//每页显示条数、默认为10
 		if($showing)
 		{
-			$itemscount =$cate->where("keyword='producttype' and showing =%d",$showing)->count();//全部记录数
+			$itemscount =$cate->where("keyword='news' and showing =%d",$showing)->count();//全部记录数
 		}else{
-			$itemscount =$cate->where("keyword='producttype'")->count();//全部记录数
+			$itemscount =$cate->where("keyword='news'")->count();//全部记录数
 		}
 
 		$pageCount = $itemscount % $pageSize ==0 ? ($itemscount / $pageSize):(($itemscount / $pageSize)+1);//总页数
@@ -24,9 +24,9 @@ class ProductAction extends CommonAction{
 
 		if($showing)
 		{
-			$list= $cate->where("keyword='producttype' and showing =%d",$showing)->limit(($pageNo-1)*$pageSize,$pageSize)->order('orders desc,dtime desc')->select();
+			$list= $cate->where("keyword='news' and showing =%d",$showing)->limit(($pageNo-1)*$pageSize,$pageSize)->order('orders desc,dtime desc')->select();
 		}else{
-			$list= $cate->where("keyword='producttype'")->limit(($pageNo-1)*$pageSize,$pageSize)->order('orders desc,dtime desc')->select();
+			$list= $cate->where("keyword='news'")->limit(($pageNo-1)*$pageSize,$pageSize)->order('orders desc,dtime desc')->select();
 		}
 
 
@@ -36,12 +36,12 @@ class ProductAction extends CommonAction{
 		$this->assign("pageno",$pageNo);
 		$this->assign("pagesize",$pageSize);
 
-		$this->display("productTypeList");
+		$this->display("newsTypeList");
 	}
 
 
 	/**
-	 * 获取产品
+	 * 获取新闻列表
 	 * keyword=producttype
 	 */
 	public  function getList()
@@ -54,7 +54,7 @@ class ProductAction extends CommonAction{
 		$pageSize = isset($_GET['ps'])?$_GET['ps']:9;//每页显示条数、默认为10
 
 		$sql = "select a.id,a.title,a.content,a.dtime,a.orders,a.showing,a.pv,a.lb,a.tj,a.img,a.keyword,a.typeid,b.title as typename ";
-		$sql = $sql." from tp_contents a left join tp_category b on a.typeid = b.id where 1=1 and b.keyword='producttype' ";
+		$sql = $sql." from tp_contents a left join tp_category b on a.typeid = b.id where 1=1 and b.keyword='news' ";
 		if($showing)
 		{
 			$sql = $sql." and a.showing =".$showing;
@@ -78,45 +78,42 @@ class ProductAction extends CommonAction{
 		$this->assign("pageno",$pageNo);
 		$this->assign("pagesize",$pageSize);
 
-		$this->display("productList");
+		$this->display("newsList");
 	}
 
-	public function preAddProduct()
+	public function preAddNews()
 	{
 		$cate = M("Category");
 		$con = M("Contents");
-		$cateList = $cate->where("keyword='producttype'")->select();
+		$cateList = $cate->where("keyword='news'")->select();
 		$id = $_GET["id"];
 		if($id)
 		{
-			$product = $con->where("id=%d",$id)->find();
-			$orders =$product['orders'];
-			$dtime = $product['dtime'];
-			$this->assign("pro",$product);
+			$news = $con->where("id=%d",$id)->find();
+			$orders =$news['orders'];
+			$dtime = $news['dtime'];
+			$this->assign("news",$news);
 		}else{
-			$orders= $con->join("left join tp_category on tp_category.id = tp_contents.typeid ")->where("tp_category.keyword='producttype'")->count()+1;
+			$orders= $con->join("left join tp_category on tp_category.id = tp_contents.typeid ")->where("tp_category.keyword='news'")->count()+1;
 			$dtime = date('Y-m-d H:i');
 		}
 
 		$this->assign("cateList",$cateList);
 		$this->assign("orders",$orders);
 		$this->assign("dtime",$dtime);
-		$this->display("addProduct");
+		$this->display("addNews");
 	}
 
-	public function addProduct()
+	public function addNews()
 	{
 		$id = $_POST["id"];
 		$typeid = $_POST["typeid"];
 		$content = $_POST["content"];
 		$content_en = $_POST["content_en"];
 		$showing = $_POST["showing"];
-		$tj = isset($_POST['tj'])?$_POST['tj']:2;
-		$lb = isset($_POST['lb'])?$_POST['lb']:2;
 		$dtime = $_POST["dtime"];
 		$orders = $_POST["orders"];
 		$pv = $_POST["pv"];
-		$uploads = $_POST["uploads"];
 		$title = $_POST["title"];
 		$title_en = $_POST["title_en"];
 		$keyword = $_POST["keyword"];
@@ -129,12 +126,9 @@ class ProductAction extends CommonAction{
 			$data["content"]=$content;
 			$data["content_en"]=$content_en;
 			$data["showing"]=$showing;
-			$data["tj"]=$tj;
-			$data["lb"]=$lb;
 			$data["dtime"]=$dtime;
 			$data["orders"]=$orders;
 			$data["pv"]=$pv;
-			$data["img"]=$uploads;
 			$data["title"]=$title;
 			$data["title_en"]=$title_en;
 			$data["keyword"]=$keyword;
@@ -147,7 +141,7 @@ class ProductAction extends CommonAction{
 				$con->add($data);
 			}
 			$con->commit();
-			$this->success('增加或更新成功', 'Product/getList');
+			$this->success('增加或更新成功', 'News/getList');
 		} catch (Exception $e) {
 			$con->rollback();
 			$this->error('增加或更新失败');

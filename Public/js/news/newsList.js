@@ -12,7 +12,7 @@ $(document).ready(function(){
 	       //总数据条数
 	       totalRecords : itemscount,
 	       //链接前部
-	       hrefFormer : cpath+'/index.php/admin_product_type',
+	       hrefFormer : cpath+'/index.php/admin_news',
 	       //链接尾部
 	       hrefLatter : '',
 	       getLink : function(n){

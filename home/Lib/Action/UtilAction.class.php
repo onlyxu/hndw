@@ -171,6 +171,14 @@ class UtilAction {
 	}
 
 
+	function  getLanAuto($content)
+	{
+		$url = "http://openapi.baidu.com/public/2.0/bmt/translate?client_id=aQAB5SqxKgaGtiN9GGIIGLEv&q=".$content."&from=auto&to=auto";
+		$str = json_decode(file_get_contents($url));
+		$con = $str->trans_result[0]->dst;
+		return $con;
+	}
+
 	function GetIpLookup($ip = ''){
 		if(empty($ip)){
 			$ip = get_client_ip();

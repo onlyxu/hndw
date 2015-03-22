@@ -56,28 +56,28 @@
         <a class="am-cf" data-am-collapse="{target: '#collapse-nav'}"><span class="am-icon-file"></span>产品管理<span class="am-icon-angle-right am-fr am-margin-right"></span></a>
         <ul class="am-list am-collapse admin-sidebar-sub am-in" id="collapse-nav">
          	<li><a href="__ROOT__/index.php/admin_product_type"><span class="am-icon-calendar"></span>产品分类</a></li>
-            <li><a href="__ROOT__/index.php/admin_product"><span class="am-icon-th"></span>产品列表<span class="am-badge am-badge-secondary am-margin-right am-fr">24</span></a></li>
+            <li><a href="__ROOT__/index.php/admin_product"><span class="am-icon-th"></span>产品列表<span class="am-badge am-badge-secondary am-margin-right am-fr"><?php echo ($pro_count); ?></span></a></li>
         </ul>
       </li>
       <li class="admin-parent">
-        <a class="am-cf" data-am-collapse="{target: '#collapse-nav'}"><span class="am-icon-file"></span>新闻管理<span class="am-icon-angle-right am-fr am-margin-right"></span></a>
-        <ul class="am-list am-collapse admin-sidebar-sub am-in" id="collapse-nav">
-         	<li><a href="admin-log.html"><span class="am-icon-calendar"></span>新闻分类</a></li>
-            <li><a href="admin-gallery.html"><span class="am-icon-th"></span>新闻列表<span class="am-badge am-badge-secondary am-margin-right am-fr">24</span></a></li>
+        <a class="am-cf" data-am-collapse="{target: '#collapse-nav-news'}"><span class="am-icon-file"></span>新闻管理<span class="am-icon-angle-right am-fr am-margin-right"></span></a>
+        <ul class="am-list am-collapse admin-sidebar-sub" id="collapse-nav-news">
+         	<li><a href="__ROOT__/index.php/admin_news_type"><span class="am-icon-calendar"></span>新闻分类</a></li>
+            <li><a href="__ROOT__/index.php/admin_news"><span class="am-icon-th"></span>新闻列表<span class="am-badge am-badge-secondary am-margin-right am-fr"><?php echo ($news_count); ?></span></a></li>
         </ul>
       </li>
       <li class="admin-parent">
-        <a class="am-cf" data-am-collapse="{target: '#collapse-nav'}"><span class="am-icon-file"></span>内容管理<span class="am-icon-angle-right am-fr am-margin-right"></span></a>
-        <ul class="am-list am-collapse admin-sidebar-sub am-in" id="collapse-nav">
+        <a class="am-cf" data-am-collapse="{target: '#collapse-nav-content'}"><span class="am-icon-file"></span>内容管理<span class="am-icon-angle-right am-fr am-margin-right"></span></a>
+        <ul class="am-list am-collapse admin-sidebar-sub" id="collapse-nav-content">
          	<li><a href="admin-log.html"><span class="am-icon-calendar"></span>成功案例管理</a></li>
             <li><a href="admin-gallery.html"><span class="am-icon-th"></span>关于我们</a></li>
             <li><a href="admin-log.html"><span class="am-icon-calendar"></span>合作伙伴</a></li>
-            <li><a href="admin-gallery.html"><span class="am-icon-th"></span>在线留言<span class="am-badge am-badge-secondary am-margin-right am-fr">24</span></a></li>
+            <li><a href="admin-gallery.html"><span class="am-icon-th"></span>在线留言<span class="am-badge am-badge-secondary am-margin-right am-fr"><?php echo ($message_count); ?></span></a></li>
         </ul>
       </li>
       <li class="admin-parent">
-        <a class="am-cf" data-am-collapse="{target: '#collapse-nav'}"><span class="am-icon-file"></span>系统管理<span class="am-icon-angle-right am-fr am-margin-right"></span></a>
-        <ul class="am-list am-collapse admin-sidebar-sub am-in" id="collapse-nav">
+        <a class="am-cf" data-am-collapse="{target: '#collapse-nav-sys'}"><span class="am-icon-file"></span>系统管理<span class="am-icon-angle-right am-fr am-margin-right"></span></a>
+        <ul class="am-list am-collapse admin-sidebar-sub" id="collapse-nav-sys">
         	<li><a href="admin-log.html"><span class="am-icon-calendar"></span>个人资料</a></li>
         	<li><a href="admin-log.html"><span class="am-icon-calendar"></span>系统用户</a></li>
          	<li><a href="admin-log.html"><span class="am-icon-calendar"></span>在线用户<span class="am-badge am-badge-secondary am-margin-right am-fr">24</span></a></li>
@@ -99,10 +99,10 @@
     </div>
 
     <ul class="am-avg-sm-1 am-avg-md-4 am-margin am-padding am-text-center admin-content-list ">
-      <li><a href="#" class="am-text-success"><span class="am-icon-btn am-icon-file-text"></span><br/>产品列表<br/>2300</a></li>
-      <li><a href="#" class="am-text-warning"><span class="am-icon-btn am-icon-briefcase"></span><br/>新闻列表<br/>308</a></li>
+      <li><a href="#" class="am-text-success"><span class="am-icon-btn am-icon-file-text"></span><br/>产品列表<br/><?php echo ($pro_count); ?></a></li>
+      <li><a href="#" class="am-text-warning"><span class="am-icon-btn am-icon-briefcase"></span><br/>新闻列表<br/><?php echo ($news_count); ?></a></li>
       <li><a href="#" class="am-text-danger"><span class="am-icon-btn am-icon-recycle"></span><br/>历史访问<br/>80082</a></li>
-      <li><a href="#" class="am-text-secondary"><span class="am-icon-btn am-icon-user-md"></span><br/>在线留言<br/>3000</a></li>
+      <li><a href="#" class="am-text-secondary"><span class="am-icon-btn am-icon-user-md"></span><br/>在线留言<br/><?php echo ($message_count); ?></a></li>
     </ul>
 
     <div class="am-g">

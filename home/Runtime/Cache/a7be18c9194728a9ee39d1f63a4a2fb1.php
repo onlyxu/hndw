@@ -58,28 +58,28 @@
         <a class="am-cf" data-am-collapse="{target: '#collapse-nav'}"><span class="am-icon-file"></span>产品管理<span class="am-icon-angle-right am-fr am-margin-right"></span></a>
         <ul class="am-list am-collapse admin-sidebar-sub am-in" id="collapse-nav">
          	<li><a href="__ROOT__/index.php/admin_product_type"><span class="am-icon-calendar"></span>产品分类</a></li>
-            <li><a href="__ROOT__/index.php/admin_product"><span class="am-icon-th"></span>产品列表<span class="am-badge am-badge-secondary am-margin-right am-fr">24</span></a></li>
+            <li><a href="__ROOT__/index.php/admin_product"><span class="am-icon-th"></span>产品列表<span class="am-badge am-badge-secondary am-margin-right am-fr"><?php echo ($pro_count); ?></span></a></li>
         </ul>
       </li>
       <li class="admin-parent">
-        <a class="am-cf" data-am-collapse="{target: '#collapse-nav'}"><span class="am-icon-file"></span>新闻管理<span class="am-icon-angle-right am-fr am-margin-right"></span></a>
-        <ul class="am-list am-collapse admin-sidebar-sub am-in" id="collapse-nav">
-         	<li><a href="admin-log.html"><span class="am-icon-calendar"></span>新闻分类</a></li>
-            <li><a href="admin-gallery.html"><span class="am-icon-th"></span>新闻列表<span class="am-badge am-badge-secondary am-margin-right am-fr">24</span></a></li>
+        <a class="am-cf" data-am-collapse="{target: '#collapse-nav-news'}"><span class="am-icon-file"></span>新闻管理<span class="am-icon-angle-right am-fr am-margin-right"></span></a>
+        <ul class="am-list am-collapse admin-sidebar-sub" id="collapse-nav-news">
+         	<li><a href="__ROOT__/index.php/admin_news_type"><span class="am-icon-calendar"></span>新闻分类</a></li>
+            <li><a href="__ROOT__/index.php/admin_news"><span class="am-icon-th"></span>新闻列表<span class="am-badge am-badge-secondary am-margin-right am-fr"><?php echo ($news_count); ?></span></a></li>
         </ul>
       </li>
       <li class="admin-parent">
-        <a class="am-cf" data-am-collapse="{target: '#collapse-nav'}"><span class="am-icon-file"></span>内容管理<span class="am-icon-angle-right am-fr am-margin-right"></span></a>
-        <ul class="am-list am-collapse admin-sidebar-sub am-in" id="collapse-nav">
+        <a class="am-cf" data-am-collapse="{target: '#collapse-nav-content'}"><span class="am-icon-file"></span>内容管理<span class="am-icon-angle-right am-fr am-margin-right"></span></a>
+        <ul class="am-list am-collapse admin-sidebar-sub" id="collapse-nav-content">
          	<li><a href="admin-log.html"><span class="am-icon-calendar"></span>成功案例管理</a></li>
             <li><a href="admin-gallery.html"><span class="am-icon-th"></span>关于我们</a></li>
             <li><a href="admin-log.html"><span class="am-icon-calendar"></span>合作伙伴</a></li>
-            <li><a href="admin-gallery.html"><span class="am-icon-th"></span>在线留言<span class="am-badge am-badge-secondary am-margin-right am-fr">24</span></a></li>
+            <li><a href="admin-gallery.html"><span class="am-icon-th"></span>在线留言<span class="am-badge am-badge-secondary am-margin-right am-fr"><?php echo ($message_count); ?></span></a></li>
         </ul>
       </li>
       <li class="admin-parent">
-        <a class="am-cf" data-am-collapse="{target: '#collapse-nav'}"><span class="am-icon-file"></span>系统管理<span class="am-icon-angle-right am-fr am-margin-right"></span></a>
-        <ul class="am-list am-collapse admin-sidebar-sub am-in" id="collapse-nav">
+        <a class="am-cf" data-am-collapse="{target: '#collapse-nav-sys'}"><span class="am-icon-file"></span>系统管理<span class="am-icon-angle-right am-fr am-margin-right"></span></a>
+        <ul class="am-list am-collapse admin-sidebar-sub" id="collapse-nav-sys">
         	<li><a href="admin-log.html"><span class="am-icon-calendar"></span>个人资料</a></li>
         	<li><a href="admin-log.html"><span class="am-icon-calendar"></span>系统用户</a></li>
          	<li><a href="admin-log.html"><span class="am-icon-calendar"></span>在线用户<span class="am-badge am-badge-secondary am-margin-right am-fr">24</span></a></li>
@@ -95,26 +95,86 @@
   <!-- 左侧菜单 end -->
   <!-- content start -->
   <div class="admin-content">
-
+	<!--内容导航-->
     <div class="am-cf am-padding">
       <div class="am-fl am-cf"><strong class="am-text-primary am-text-lg">首页</strong> / <small>产品列表</small></div>
     </div>
+    <!--内容导航end-->
+	<!-- 内容操作按钮start -->
+ 	 <div class="am-g">
+      <div class="am-u-md-6 am-cf">
+        <div class="am-fl am-cf">
+          <div class="am-btn-toolbar am-fl">
+            <div class="am-btn-group am-btn-group-xs">
+              <button type="button" onclick="window.location.href='__ROOT__/index.php/pre_product_add'" class="am-btn am-btn-default"><span class="am-icon-plus"></span>新增</button>
+              <button type="button" class="am-btn am-btn-default"><span class="am-icon-save"></span>更新排序</button>
+              <button type="button" class="am-btn am-btn-default"><span class="am-icon-trash-o"></span>批量删除</button>
+            </div>
+    		<div class="am-form-group am-margin-left am-fl">
+              <select>
+                <option value="0">所有显示状态</option>
+                <option value="1">显示</option>
+                <option value="2">隐藏</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="am-u-md-3 am-cf">
+        <div class="am-fr">
+          <div class="am-input-group am-input-group-sm">
+            <input type="text" class="am-form-field">
+                <span class="am-input-group-btn">
+                  <button class="am-btn am-btn-default" type="button">搜索</button>
+                </span>
+          </div>
+        </div>
+      </div>
+    </div>
+	<!-- 内容操作按钮end -->
+	<!-- 内容start -->
+	  <div class="am-g">
+      <div class="am-u-sm-12">
+        <form class="am-form">
+          <table class="am-table am-table-striped am-table-hover table-main">
+            <thead>
+              <tr>
+                <th class="table-check"><input type="checkbox" /></th><th class="table-title">展示图</th><th class="table-title">标题</th><th class="table-type">排序</th><th class="table-author">关键字</th><th class="table-date">创建日期</th><th class="table-type">显示状态</th><th class="table-type">轮播</th><th class="table-type">推荐</th><th class="table-set">操作</th>
+              </tr>
+          </thead>
+          <tbody>
+          <?php if(empty($items)): ?><tr><td colspan="8" align="center">还没有任何产品，请先添加！</td></tr><?php endif; ?>
+         <?php if(is_array($items)): $i = 0; $__LIST__ = $items;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
+              <td><input type="checkbox" value="<?php echo ($vo["id"]); ?>"/></td>
+              <td><img class="am-img-thumbnail am-img-bdrs" title="<?php echo ($vo["title"]); ?>" width="100" height="60" src="<?php echo ($vo["img"]); ?>" alt="<?php echo ($vo["title"]); ?>"/></td>
+              <td><a href="__ROOT__/index.php/pre_product_add/id/<?php echo ($vo["id"]); ?>"><?php echo (msubstr($vo["title"],0,20,'utf-8',true)); ?></a></td>
+              <td><input name="orders" style="width: 50px;" type="text" value="<?php echo ($vo["orders"]); ?>" /></td>
+              <td><?php echo ($vo["keyword"]); ?></td>
+              <td><?php echo ($vo["dtime"]); ?></td>
+              <?php if($vo["showing"] == 1): ?><td>显示</td><?php else: ?><td>隐藏</td><?php endif; ?>
+              <?php if($vo["lb"] == 1): ?><td>是</td><?php else: ?><td>否</td><?php endif; ?>
+              <?php if($vo["tj"] == 1): ?><td>是</td><?php else: ?><td>否</td><?php endif; ?>
+              <td>
+                <div class="am-btn-toolbar">
+                  <div class="am-btn-group am-btn-group-xs">
+                    <button class="am-btn am-btn-default am-btn-xs am-text-secondary"><span class="am-icon-pencil-square-o"></span> 编辑</button>
+                    <button class="am-btn am-btn-default am-btn-xs am-text-danger"><span class="am-icon-trash-o"></span> 删除</button>
+                  </div>
+                </div>
+              </td>
+            </tr><?php endforeach; endif; else: echo "" ;endif; ?>
 
-    <ul class="am-avg-sm-2 am-avg-md-4 am-avg-lg-6 am-margin gallery-list">
-     <?php if(is_array($items)): $i = 0; $__LIST__ = $items;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li>
-        <a href="#">
-          <img class="am-img-thumbnail am-img-bdrs" src="http://cn.bing.com/az/hprichv/LondonTrainStation_GettyRR_139321755_ZH-CN742316019.jpg" alt=""/>
-          <div class="gallery-title">远方 有一个地方 那里种有我们的梦想</div>
-          <div class="gallery-desc">2375-09-26</div>
-        </a>
-      </li><?php endforeach; endif; else: echo "" ;endif; ?>
+          </tbody>
+        </table>
+         <div class="am-cf" id="kkpager">
 
-    </ul>
+		 </div>
 
-    <div class="am-margin am-cf" id="kkpager">
+        </form>
+      </div>
 
     </div>
-
+	<!-- 内容end-->
   </div>
   <!-- content end -->
 

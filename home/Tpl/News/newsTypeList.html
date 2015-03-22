@@ -1,32 +1,32 @@
 <!doctype html>
 <html class="no-js">
 <head>
- 	<include file="Public:admin_head" />
+	<include file="Public:admin_head" />
 	<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/kkpager.css" />
 </head>
 <body>
+
 <!--网页顶部 start-->
 	<include file="Public:admin_top" />
 <!--网页顶部end-->
 
 <div class="am-cf admin-main">
- <!-- 左侧菜单start -->
+  <!-- 左侧菜单start -->
  	<include file="Public:admin_left" />
   <!-- 左侧菜单 end -->
   <!-- content start -->
   <div class="admin-content">
-	<!--内容导航-->
+
     <div class="am-cf am-padding">
-      <div class="am-fl am-cf"><strong class="am-text-primary am-text-lg">首页</strong> / <small>产品列表</small></div>
+      <div class="am-fl am-cf"><strong class="am-text-primary am-text-lg">首页</strong> / <small>新闻分类</small></div>
     </div>
-    <!--内容导航end-->
-	<!-- 内容操作按钮start -->
- 	 <div class="am-g">
+
+    <div class="am-g">
       <div class="am-u-md-6 am-cf">
         <div class="am-fl am-cf">
           <div class="am-btn-toolbar am-fl">
             <div class="am-btn-group am-btn-group-xs">
-              <button type="button" onclick="window.location.href='__ROOT__/index.php/pre_product_add'" class="am-btn am-btn-default"><span class="am-icon-plus"></span>新增</button>
+              <button type="button" class="am-btn am-btn-default"><span class="am-icon-plus"></span>新增</button>
               <button type="button" class="am-btn am-btn-default"><span class="am-icon-save"></span>更新排序</button>
               <button type="button" class="am-btn am-btn-default"><span class="am-icon-trash-o"></span>批量删除</button>
             </div>
@@ -51,40 +51,40 @@
         </div>
       </div>
     </div>
-	<!-- 内容操作按钮end -->
-	<!-- 内容start -->
-	  <div class="am-g">
+
+    <div class="am-g">
       <div class="am-u-sm-12">
         <form class="am-form">
           <table class="am-table am-table-striped am-table-hover table-main">
             <thead>
               <tr>
-                <th class="table-check"><input type="checkbox" /></th><th class="table-title">展示图</th><th class="table-title">标题</th><th class="table-type">排序</th><th class="table-author">关键字</th><th class="table-date">创建日期</th><th class="table-type">显示状态</th><th class="table-type">轮播</th><th class="table-type">推荐</th><th class="table-set">操作</th>
+                <th class="table-check"><input type="checkbox" /></th><th class="table-id">ID</th><th class="table-title">标题</th><th class="table-type">排序</th><th class="table-author">关键字</th><th class="table-date">创建日期</th><th class="table-type">显示状态</th><th class="table-set">操作</th>
               </tr>
           </thead>
           <tbody>
-          <empty name="items"><tr><td colspan="8" align="center">还没有任何产品，请先添加！</td></tr></empty>
+          <empty name="items"><tr><td colspan="8" align="center">还没有任何新闻，请先添加！</td></tr></empty>
          <volist name="items" id="vo">
             <tr>
               <td><input type="checkbox" value="{$vo.id}"/></td>
-              <td><img class="am-img-thumbnail am-img-bdrs" title="{$vo.title}" width="100" height="60" src="{$vo.img}" alt="{$vo.title}"/></td>
-              <td><a href="__ROOT__/index.php/pre_product_add/id/{$vo.id}">{$vo.title| msubstr=0,20,'utf-8',true}</a></td>
+              <td>{$vo.id}</td>
+              <td><a href="#">{$vo.title}</a></td>
               <td><input name="orders" style="width: 50px;" type="text" value="{$vo.orders}" /></td>
               <td>{$vo.keyword}</td>
               <td>{$vo.dtime}</td>
               <if condition="$vo.showing eq 1">
-              <td>显示</td><else/><td>隐藏</td>
-              </if>
-              <if condition="$vo.lb eq 1">
-              <td>是</td><else/><td>否</td>
-              </if>
-              <if condition="$vo.tj eq 1">
-              <td>是</td><else/><td>否</td>
+              <td>显示</td>
+              <else/>
+              <td>隐藏</td>
               </if>
               <td>
                 <div class="am-btn-toolbar">
                   <div class="am-btn-group am-btn-group-xs">
                     <button class="am-btn am-btn-default am-btn-xs am-text-secondary"><span class="am-icon-pencil-square-o"></span> 编辑</button>
+                    <if condition="$vo.showing eq 1">
+                    <button class="am-btn am-btn-default am-btn-xs"><span class="am-icon-copy"></span>隐藏</button>
+                    <else/>
+                    <button class="am-btn am-btn-default am-btn-xs"><span class="am-icon-copy"></span>显示</button>
+                    </if>
                     <button class="am-btn am-btn-default am-btn-xs am-text-danger"><span class="am-icon-trash-o"></span> 删除</button>
                   </div>
                 </div>
@@ -102,10 +102,8 @@
       </div>
 
     </div>
-	<!-- 内容end-->
   </div>
   <!-- content end -->
-
 </div>
 <input type="hidden" id="pagecount" value="{$pagecount}" />
 <input type="hidden" id="itemscount" value="{$itemscount}" />
@@ -114,6 +112,6 @@
 <include file="Public:admin_buttom" />
 <include file="Public:admin_script" />
 <script type="text/javascript" src="__PUBLIC__/js/kkpager.min.js"></script>
-<script type="text/javascript" src="__PUBLIC__/js/product/productList.js"></script>
+<script type="text/javascript" src="__PUBLIC__/js/news/newsTypeList.js"></script>
 </body>
 </html>
