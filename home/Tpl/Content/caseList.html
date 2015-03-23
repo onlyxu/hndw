@@ -1,0 +1,82 @@
+<!doctype html>
+<html class="no-js">
+<head>
+	<include file="Public:admin_head" />
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/kkpager.css" />
+</head>
+<body>
+	<!--网页顶部 start-->
+	<include file="Public:admin_top" />
+	<!--网页顶部end-->
+
+<div class="am-cf admin-main">
+ <!-- 左侧菜单start -->
+ 	<include file="Public:admin_left" />
+  <!-- 左侧菜单 end -->
+
+  <!-- content start -->
+  <div class="admin-content">
+
+    <div class="am-cf am-padding">
+      <div class="am-fl am-cf"><strong class="am-text-primary am-text-lg">首页</strong> / <small>成功案例</small></div>
+    </div>
+    <!-- 内容操作按钮start -->
+ 	 <div class="am-g">
+      <div class="am-u-md-6 am-cf">
+        <div class="am-fl am-cf">
+          <div class="am-btn-toolbar am-fl">
+            <div class="am-btn-group am-btn-group-xs">
+              <button type="button" onclick="window.location.href='__ROOT__/index.php/pre_product_add/producttype'" class="am-btn am-btn-default"><span class="am-icon-plus"></span>新增</button>
+              <button type="button" class="am-btn am-btn-default"><span class="am-icon-save"></span>更新排序</button>
+              <button type="button" class="am-btn am-btn-default"><span class="am-icon-trash-o"></span>批量删除</button>
+            </div>
+    		<div class="am-form-group am-margin-left am-fl">
+              <select>
+                <option value="0">所有显示状态</option>
+                <option value="1">显示</option>
+                <option value="2">隐藏</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="am-u-md-3 am-cf">
+        <div class="am-fr">
+          <div class="am-input-group am-input-group-sm">
+            <input type="text" class="am-form-field">
+                <span class="am-input-group-btn">
+                  <button class="am-btn am-btn-default" type="button">搜索</button>
+                </span>
+          </div>
+        </div>
+      </div>
+    </div>
+	<!-- 内容操作按钮end -->
+	<empty name="items">还没有任何产品，请先添加！</empty>
+    <ul class="am-avg-sm-2 am-avg-md-4 am-avg-lg-6 am-margin gallery-list">
+     <volist name="items" id="vo">
+      <li>
+        <a href="#">
+          <img class="am-img-thumbnail am-img-bdrs" src="http://cn.bing.com/az/hprichv/LondonTrainStation_GettyRR_139321755_ZH-CN742316019.jpg" alt=""/>
+          <div class="gallery-title">{$vo.title| msubstr=0,20,'utf-8',true}</div>
+          <div class="gallery-desc">{$vo.keyword}</div>
+        </a>
+      </li>
+      </volist>
+    </ul>
+	<div class="am-cf" id="kkpager"></div>
+
+  </div>
+  <!-- content end -->
+</div>
+
+<input type="hidden" id="pagecount" value="{$pagecount}" />
+<input type="hidden" id="itemscount" value="{$itemscount}" />
+<input type="hidden" id="pageno" value="{$pageno}" />
+<input type="hidden" id="size" value="10" />
+<include file="Public:admin_buttom" />
+<include file="Public:admin_script" />
+<script type="text/javascript" src="__PUBLIC__/js/kkpager.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/js/content/caseList.js"></script>
+</body>
+</html>

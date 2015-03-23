@@ -72,9 +72,9 @@
       <li class="admin-parent">
         <a class="am-cf" data-am-collapse="{target: '#collapse-nav-content'}"><span class="am-icon-file"></span>内容管理<span class="am-icon-angle-right am-fr am-margin-right"></span></a>
         <ul class="am-list am-collapse admin-sidebar-sub" id="collapse-nav-content">
-         	<li><a href="__ROOT__/index.php/case_list/case"><span class="am-icon-calendar"></span>成功案例管理</a></li>
+         	<li><a href="admin-log.html"><span class="am-icon-calendar"></span>成功案例管理</a></li>
             <li><a href="admin-gallery.html"><span class="am-icon-th"></span>关于我们</a></li>
-            <li><a href="__ROOT__/index.php/partner_list/partner"><span class="am-icon-calendar"></span>合作伙伴</a></li>
+            <li><a href="admin-log.html"><span class="am-icon-calendar"></span>合作伙伴</a></li>
             <li><a href="admin-gallery.html"><span class="am-icon-th"></span>在线留言<span class="am-badge am-badge-secondary am-margin-right am-fr"><?php echo ($message_count); ?></span></a></li>
         </ul>
       </li>
@@ -96,10 +96,10 @@
   <!-- 左侧菜单 end -->
 
 <!-- content start -->
- <form action="__ROOT__/index.php/product_add" method="post" class="am-form" id="am-from">
+ <form action="__ROOT__/index.php/news_add" method="post" class="am-form" id="am-from">
 <div class="admin-content">
   <div class="am-cf am-padding">
-    <div class="am-fl am-cf"><strong class="am-text-primary am-text-lg">首页</strong> / <small>产品信息</small></div>
+    <div class="am-fl am-cf"><strong class="am-text-primary am-text-lg">首页</strong> / <small>新闻信息</small></div>
   </div>
 
   <div class="am-tabs am-margin" data-am-tabs>
@@ -143,29 +143,6 @@
             </div>
           </div>
         </div>
-
-        <div class="am-g am-margin-top">
-          <div class="am-u-sm-2 am-text-right">推荐类型</div>
-          <div class="am-u-sm-10">
-            <div class="am-btn-group">
-             <?php if($content["tj"] == 1): ?><label class="am-btn am-btn-default am-btn-xs" for="tj">
-                <input type="checkbox" checked="checked" name="tj" id="tj" value="1" /> 推荐
-               </label>
-             	<?php else: ?>
-             	<label class="am-btn am-btn-default am-btn-xs" for="tj">
-                <input type="checkbox"  name="tj" id="tj" value="1" /> 推荐
-               </label><?php endif; ?>
- 			<?php if($content["lb"] == 1): ?><label class="am-btn am-btn-default am-btn-xs" for="lb">
-	                <input type="checkbox" checked="checked" name="lb" id="lb" value="1" /> 轮播图
-	              </label>
-              <?php else: ?>
-	              <label class="am-btn am-btn-default am-btn-xs" for="lb">
-	                <input type="checkbox" name="lb" id="lb" value="1" /> 轮播图
-	              </label><?php endif; ?>
-            </div>
-          </div>
-        </div>
-
         <div class="am-g am-margin-top">
           <div class="am-u-sm-2 am-text-right">发布时间</div>
           <div class="am-u-sm-10">
@@ -187,24 +164,17 @@
                <input type="text" name="pv" class="am-form-field am-input-sm" value="<?php echo ($content["pv"]); ?>" placeholder="浏览次数" />
           </div>
         </div>
- 		<div class="am-g am-margin-top">
-          <div class="am-u-sm-2 am-text-right">展示图片 </div>
-          <div class="am-u-sm-10">
-				<input type="button"  id="uploadButton" value="选择文件" />
-				<span class="" id="img_td" style="display: none"><img id="uploadimgs" src="" width="100" height="100"/></span>
-          </div>
-        </div>
+
       </div>
 	<!-- 中文详细信息TAB -->
       <div class="am-tab-panel am-fade" id="tab2">
           <div class="am-g am-margin-top">
-            <div class="am-u-sm-2 am-text-right">产品名称</div>
+            <div class="am-u-sm-2 am-text-right">新闻标题</div>
             <div class="am-u-sm-8">
               <input type="text" class="am-input-sm" name="title" value="<?php echo ($content["title"]); ?>"  />
             </div>
             <div class="am-u-sm-2">*必填</div>
           </div>
-
          <div class="am-g am-margin-top">
             <div class="am-u-sm-2 am-text-right">关键字</div>
             <div class="am-u-sm-8">
@@ -254,7 +224,6 @@
     </div>
   </div>
 	<input type="hidden" name="id" id="id" value="<?php echo ($content["id"]); ?>" />
-	<input type="hidden" id="uploads" name="uploads" value="<?php echo ($content["img"]); ?>" />
   <div class="am-margin">
     <button type="submit" class="am-btn am-btn-primary am-btn-xs">提交保存</button>
     <button type="button" onclick="window.history.go(-1)" class="am-btn am-btn-primary am-btn-xs">放弃保存</button>
@@ -289,6 +258,6 @@
 <script charset="utf-8" src="__PUBLIC__/kindeditor-4.1.10/kindeditor-min.js"></script>
 <script charset="utf-8" src="__PUBLIC__/kindeditor-4.1.10/lang/zh_CN.js"></script>
 <script charset="utf-8" src="__PUBLIC__/kindeditor-4.1.10/plugins/code/prettify.js"></script>
-<script type="text/javascript" src="__PUBLIC__/js/product/addProduct.js"></script>
+<script type="text/javascript" src="__PUBLIC__/js/news/addNews.js"></script>
 </body>
 </html>

@@ -1,7 +1,7 @@
 <?php if (!defined('THINK_PATH')) exit();?><!doctype html>
 <html class="no-js">
 <head>
- 	<meta charset="utf-8" />
+	<meta charset="utf-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <title>河南帝伟-后台管理系统</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
@@ -17,6 +17,7 @@
 	<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/kkpager.css" />
 </head>
 <body>
+
 <!--网页顶部 start-->
 	<!--[if lte IE 9]>
 <p class="browsehappy">你正在使用<strong>过时</strong>的浏览器，后台管理系统暂不支持。 请 <a href="http://browsehappy.com/" target="_blank">升级浏览器</a>
@@ -48,7 +49,7 @@
 <!--网页顶部end-->
 
 <div class="am-cf admin-main">
- <!-- 左侧菜单start -->
+  <!-- 左侧菜单start -->
  	<!-- sidebar start -->
   <div class="admin-sidebar">
     <ul class="am-list admin-sidebar-list">
@@ -71,7 +72,7 @@
       <li class="admin-parent">
         <a class="am-cf" data-am-collapse="{target: '#collapse-nav-content'}"><span class="am-icon-file"></span>内容管理<span class="am-icon-angle-right am-fr am-margin-right"></span></a>
         <ul class="am-list am-collapse admin-sidebar-sub" id="collapse-nav-content">
-         	<li><a href="__ROOT__/index.php/case_list/case"><span class="am-icon-calendar"></span>成功案例管理</a></li>
+         	<li><a href="admin-log.html"><span class="am-icon-calendar"></span>成功案例管理</a></li>
             <li><a href="admin-gallery.html"><span class="am-icon-th"></span>关于我们</a></li>
             <li><a href="admin-log.html"><span class="am-icon-calendar"></span>合作伙伴</a></li>
             <li><a href="admin-gallery.html"><span class="am-icon-th"></span>在线留言<span class="am-badge am-badge-secondary am-margin-right am-fr"><?php echo ($message_count); ?></span></a></li>
@@ -95,18 +96,17 @@
   <!-- 左侧菜单 end -->
   <!-- content start -->
   <div class="admin-content">
-	<!--内容导航-->
+
     <div class="am-cf am-padding">
-      <div class="am-fl am-cf"><strong class="am-text-primary am-text-lg">首页</strong> / <small>产品列表</small></div>
+      <div class="am-fl am-cf"><strong class="am-text-primary am-text-lg">首页</strong> / <small>新闻分类</small></div>
     </div>
-    <!--内容导航end-->
-	<!-- 内容操作按钮start -->
- 	 <div class="am-g">
+
+    <div class="am-g">
       <div class="am-u-md-6 am-cf">
         <div class="am-fl am-cf">
           <div class="am-btn-toolbar am-fl">
             <div class="am-btn-group am-btn-group-xs">
-              <button type="button" onclick="window.location.href='__ROOT__/index.php/pre_product_add/producttype'" class="am-btn am-btn-default"><span class="am-icon-plus"></span>新增</button>
+              <button type="button" class="am-btn am-btn-default"><span class="am-icon-plus"></span>新增</button>
               <button type="button" class="am-btn am-btn-default"><span class="am-icon-save"></span>更新排序</button>
               <button type="button" class="am-btn am-btn-default"><span class="am-icon-trash-o"></span>批量删除</button>
             </div>
@@ -131,33 +131,35 @@
         </div>
       </div>
     </div>
-	<!-- 内容操作按钮end -->
-	<!-- 内容start -->
-	  <div class="am-g">
+
+    <div class="am-g">
       <div class="am-u-sm-12">
         <form class="am-form">
           <table class="am-table am-table-striped am-table-hover table-main">
             <thead>
               <tr>
-                <th class="table-check"><input type="checkbox" /></th><th class="table-title">展示图</th><th class="table-title">标题</th><th class="table-type">排序</th><th class="table-author">关键字</th><th class="table-date">创建日期</th><th class="table-type">显示状态</th><th class="table-type">轮播</th><th class="table-type">推荐</th><th class="table-set">操作</th>
+                <th class="table-check"><input type="checkbox" /></th><th class="table-id">ID</th><th class="table-title">标题</th><th class="table-type">排序</th><th class="table-author">关键字</th><th class="table-date">创建日期</th><th class="table-type">显示状态</th><th class="table-set">操作</th>
               </tr>
           </thead>
           <tbody>
-          <?php if(empty($items)): ?><tr><td colspan="8" align="center">还没有任何产品，请先添加！</td></tr><?php endif; ?>
+          <?php if(empty($items)): ?><tr><td colspan="8" align="center">还没有任何新闻，请先添加！</td></tr><?php endif; ?>
          <?php if(is_array($items)): $i = 0; $__LIST__ = $items;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
               <td><input type="checkbox" value="<?php echo ($vo["id"]); ?>"/></td>
-              <td><img class="am-img-thumbnail am-img-bdrs" title="<?php echo ($vo["title"]); ?>" width="100" height="60" src="<?php echo ($vo["img"]); ?>" alt="<?php echo ($vo["title"]); ?>"/></td>
-              <td><a href="__ROOT__/index.php/pre_product_add/producttype/id/<?php echo ($vo["id"]); ?>"><?php echo (msubstr($vo["title"],0,20,'utf-8',true)); ?></a></td>
+              <td><?php echo ($vo["id"]); ?></td>
+              <td><a href="#"><?php echo ($vo["title"]); ?></a></td>
               <td><input name="orders" style="width: 50px;" type="text" value="<?php echo ($vo["orders"]); ?>" /></td>
               <td><?php echo ($vo["keyword"]); ?></td>
               <td><?php echo ($vo["dtime"]); ?></td>
-              <?php if($vo["showing"] == 1): ?><td>显示</td><?php else: ?><td>隐藏</td><?php endif; ?>
-              <?php if($vo["lb"] == 1): ?><td>是</td><?php else: ?><td>否</td><?php endif; ?>
-              <?php if($vo["tj"] == 1): ?><td>是</td><?php else: ?><td>否</td><?php endif; ?>
+              <?php if($vo["showing"] == 1): ?><td>显示</td>
+              <?php else: ?>
+              <td>隐藏</td><?php endif; ?>
               <td>
                 <div class="am-btn-toolbar">
                   <div class="am-btn-group am-btn-group-xs">
                     <button class="am-btn am-btn-default am-btn-xs am-text-secondary"><span class="am-icon-pencil-square-o"></span> 编辑</button>
+                    <?php if($vo["showing"] == 1): ?><button class="am-btn am-btn-default am-btn-xs"><span class="am-icon-copy"></span>隐藏</button>
+                    <?php else: ?>
+                    <button class="am-btn am-btn-default am-btn-xs"><span class="am-icon-copy"></span>显示</button><?php endif; ?>
                     <button class="am-btn am-btn-default am-btn-xs am-text-danger"><span class="am-icon-trash-o"></span> 删除</button>
                   </div>
                 </div>
@@ -166,16 +168,16 @@
 
           </tbody>
         </table>
-         <div class="am-cf" id="kkpager"></div>
+         <div class="am-cf" id="kkpager">
+
+		 </div>
 
         </form>
       </div>
 
     </div>
-	<!-- 内容end-->
   </div>
   <!-- content end -->
-
 </div>
 <input type="hidden" id="pagecount" value="<?php echo ($pagecount); ?>" />
 <input type="hidden" id="itemscount" value="<?php echo ($itemscount); ?>" />
@@ -203,6 +205,6 @@
 <script type="text/javascript" src="__PUBLIC__/artDialog4/artDialog.js?skin=twitter" > </script>
 <script type="text/javascript" src="__PUBLIC__/js/common.js"></script>
 <script type="text/javascript" src="__PUBLIC__/js/kkpager.min.js"></script>
-<script type="text/javascript" src="__PUBLIC__/js/product/productList.js"></script>
+<script type="text/javascript" src="__PUBLIC__/js/news/newsTypeList.js"></script>
 </body>
 </html>

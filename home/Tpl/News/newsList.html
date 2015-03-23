@@ -26,7 +26,7 @@
         <div class="am-fl am-cf">
           <div class="am-btn-toolbar am-fl">
             <div class="am-btn-group am-btn-group-xs">
-              <button type="button" onclick="window.location.href='__ROOT__/index.php/pre_news_add'" class="am-btn am-btn-default"><span class="am-icon-plus"></span>新增</button>
+              <button type="button" onclick="window.location.href='__ROOT__/index.php/pre_news_add/news'" class="am-btn am-btn-default"><span class="am-icon-plus"></span>新增</button>
               <button type="button" class="am-btn am-btn-default"><span class="am-icon-save"></span>更新排序</button>
               <button type="button" class="am-btn am-btn-default"><span class="am-icon-trash-o"></span>批量删除</button>
             </div>
@@ -67,7 +67,7 @@
             <tr>
               <td><input type="checkbox" value="{$vo.id}"/></td>
               <td>{$vo.id}</td>
-              <td><a href="__ROOT__/index.php/pre_news_add/id/{$vo.id}">{$vo.title| msubstr=0,25,'utf-8',true}</a></td>
+              <td><a href="__ROOT__/index.php/pre_news_add/news/id/{$vo.id}">{$vo.title| msubstr=0,25,'utf-8',true}</a></td>
               <td><input name="orders" style="width: 50px;" type="text" value="{$vo.orders}" /></td>
               <td>{$vo.keyword}</td>
               <td>{$vo.dtime}</td>

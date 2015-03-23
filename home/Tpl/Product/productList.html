@@ -26,7 +26,7 @@
         <div class="am-fl am-cf">
           <div class="am-btn-toolbar am-fl">
             <div class="am-btn-group am-btn-group-xs">
-              <button type="button" onclick="window.location.href='__ROOT__/index.php/pre_product_add'" class="am-btn am-btn-default"><span class="am-icon-plus"></span>新增</button>
+              <button type="button" onclick="window.location.href='__ROOT__/index.php/pre_product_add/producttype'" class="am-btn am-btn-default"><span class="am-icon-plus"></span>新增</button>
               <button type="button" class="am-btn am-btn-default"><span class="am-icon-save"></span>更新排序</button>
               <button type="button" class="am-btn am-btn-default"><span class="am-icon-trash-o"></span>批量删除</button>
             </div>
@@ -68,7 +68,7 @@
             <tr>
               <td><input type="checkbox" value="{$vo.id}"/></td>
               <td><img class="am-img-thumbnail am-img-bdrs" title="{$vo.title}" width="100" height="60" src="{$vo.img}" alt="{$vo.title}"/></td>
-              <td><a href="__ROOT__/index.php/pre_product_add/id/{$vo.id}">{$vo.title| msubstr=0,20,'utf-8',true}</a></td>
+              <td><a href="__ROOT__/index.php/pre_product_add/producttype/id/{$vo.id}">{$vo.title| msubstr=0,20,'utf-8',true}</a></td>
               <td><input name="orders" style="width: 50px;" type="text" value="{$vo.orders}" /></td>
               <td>{$vo.keyword}</td>
               <td>{$vo.dtime}</td>
@@ -94,9 +94,7 @@
 
           </tbody>
         </table>
-         <div class="am-cf" id="kkpager">
-
-		 </div>
+         <div class="am-cf" id="kkpager"></div>
 
         </form>
       </div>

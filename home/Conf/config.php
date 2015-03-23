@@ -24,14 +24,16 @@ return array(
 			  'admin'=>'Admin/index',//后台首页,
 			  'verify'=>'Admin/genCode',//图片验证码
 			  'login'=>'Admin/AdminLogin',//登陆验证
-			  'admin_product_type'=>'Product/getTypeList',//后台产品分类
-			  'admin_product'=>'Product/getList',//后台产品
-			  'pre_product_add'=>'Product/preAddProduct',//前往添加产品页面
+			  'admin_product_type/:keyword'=>'Product/getTypeList',//后台产品分类
+			  'admin_product/:keyword'=>'Product/getList',//后台产品
+			  'pre_product_add/:keyword'=>'Product/preAddProduct',//前往添加产品页面
 			  'product_add'=>'Product/addProduct',//添加产品
-			  'admin_news_type'=>'News/getTypeList',//后台新闻分类
-			  'admin_news'=>'News/getList',//后台新闻
-			  'pre_news_add'=>'News/preAddNews',//前往添加新闻页面
-			  'news_add'=>'News/addNews'//添加新闻
+			  'admin_news_type/:keyword'=>'News/getTypeList',//后台新闻分类
+			  'admin_news/:keyword'=>'News/getList',//后台新闻
+			  'pre_news_add/:keyword'=>'News/preAddNews',//前往添加新闻页面
+			  'news_add'=>'News/addNews',//添加新闻
+			  'case_list/:keyword'=>'Content/getCaseList',//成功案例列表
+			  'partner_list/:keyword'=>'Content/getPartnerList'//合作伙伴列表
 			)
 );
 ?>

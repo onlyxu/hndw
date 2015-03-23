@@ -58,15 +58,15 @@
       <li class="admin-parent">
         <a class="am-cf" data-am-collapse="{target: '#collapse-nav'}"><span class="am-icon-file"></span>产品管理<span class="am-icon-angle-right am-fr am-margin-right"></span></a>
         <ul class="am-list am-collapse admin-sidebar-sub am-in" id="collapse-nav">
-         	<li><a href="__ROOT__/index.php/admin_product_type"><span class="am-icon-calendar"></span>产品分类</a></li>
-            <li><a href="__ROOT__/index.php/admin_product"><span class="am-icon-th"></span>产品列表<span class="am-badge am-badge-secondary am-margin-right am-fr"><?php echo ($pro_count); ?></span></a></li>
+         	<li><a href="__ROOT__/index.php/admin_product_type/producttype"><span class="am-icon-calendar"></span>产品分类</a></li>
+            <li><a href="__ROOT__/index.php/admin_product/producttype"><span class="am-icon-th"></span>产品列表<span class="am-badge am-badge-secondary am-margin-right am-fr"><?php echo ($pro_count); ?></span></a></li>
         </ul>
       </li>
       <li class="admin-parent">
         <a class="am-cf" data-am-collapse="{target: '#collapse-nav-news'}"><span class="am-icon-file"></span>新闻管理<span class="am-icon-angle-right am-fr am-margin-right"></span></a>
         <ul class="am-list am-collapse admin-sidebar-sub" id="collapse-nav-news">
-         	<li><a href="__ROOT__/index.php/admin_news_type"><span class="am-icon-calendar"></span>新闻分类</a></li>
-            <li><a href="__ROOT__/index.php/admin_news"><span class="am-icon-th"></span>新闻列表<span class="am-badge am-badge-secondary am-margin-right am-fr"><?php echo ($news_count); ?></span></a></li>
+         	<li><a href="__ROOT__/index.php/admin_news_type/news"><span class="am-icon-calendar"></span>新闻分类</a></li>
+            <li><a href="__ROOT__/index.php/admin_news/news"><span class="am-icon-th"></span>新闻列表<span class="am-badge am-badge-secondary am-margin-right am-fr"><?php echo ($news_count); ?></span></a></li>
         </ul>
       </li>
       <li class="admin-parent">
